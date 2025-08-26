@@ -45,9 +45,10 @@
       "bitmaps",
       "pads",
       "zones",
+      "drc_warnings",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00001030_fffffffe",
+    "visible_layers": "00000000_00000000_00001030_ffffffdd",
     "zone_display_mode": 1
   },
   "git": {
