@@ -17,6 +17,7 @@
 	(property "Value" "CONN-SMD_HOTPLUGPAKAGE__C9900010116"
 		(at 0 5.1 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "3f47df38-2442-4fb2-88d1-03d13b69d9b7")
 		(effects
 			(font
@@ -277,37 +278,25 @@
 		(layer "F.Fab")
 		(uuid "6433a6de-e738-4b0d-a698-310620c2b55e")
 	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(uuid "6123f63e-ef5d-4b59-a06a-dc9b0cfd6fc2")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(pad "" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at -2.5 1.1)
 		(size 3 3)
 		(drill 3)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "7e2a894e-7e4b-4364-8aa0-80bd62d15425")
 	)
-	(pad "" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at 2.5 -1.1)
 		(size 3 3)
 		(drill 3)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "861c4d06-81be-4800-906a-958e7f3394b8")
 	)
 	(pad "1" smd rect
 		(at -5.77 1.1)
 		(size 2.6 2.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0)
 		(uuid "bc5c3dd2-4838-40f3-8932-af7bde84efb2")
 	)
 	(pad "2" smd rect
