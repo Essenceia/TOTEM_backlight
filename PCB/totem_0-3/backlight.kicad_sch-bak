@@ -1,0 +1,40 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9a65553b-1fa2-4a01-b451-1c0bae15f524")
+	(paper "A4")
+	(lib_symbols)
+	(text "R I G H T"
+		(exclude_from_sim no)
+		(at 139.954 21.59 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "5be78c7e-7d5f-41dc-b79d-ef28d82d2615")
+	)
+	(text "L E F T"
+		(exclude_from_sim no)
+		(at 130.81 21.59 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify right bottom)
+		)
+		(uuid "91874d27-c9a8-4557-a917-2fcb9d2ae688")
+	)
+	(polyline
+		(pts
+			(xy 135.89 12.7) (xy 135.89 198.12)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "0f503a2a-9981-4050-aba5-be7a1eb5e13d")
+	)
+)

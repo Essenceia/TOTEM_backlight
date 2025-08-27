@@ -1,0 +1,5753 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9a65553b-1fa2-4a01-b451-1c0bae15f524")
+	(paper "A4")
+	(title_block
+		(title "Backlight")
+		(comment 1 "Pimped by Essenceia")
+	)
+	(lib_symbols
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "R I G H T"
+		(exclude_from_sim no)
+		(at 139.954 21.59 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "5be78c7e-7d5f-41dc-b79d-ef28d82d2615")
+	)
+	(text "L E F T"
+		(exclude_from_sim no)
+		(at 130.81 21.59 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify right bottom)
+		)
+		(uuid "91874d27-c9a8-4557-a917-2fcb9d2ae688")
+	)
+	(junction
+		(at 234.95 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "029a2d38-c9d4-4146-87d1-660dd15811bd")
+	)
+	(junction
+		(at 193.04 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03a2f29e-33d7-4994-8aa4-9d8a7dd512c6")
+	)
+	(junction
+		(at 43.18 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05cf111b-f1cf-4da4-80b1-be9951844034")
+	)
+	(junction
+		(at 243.84 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "068d8c0e-beee-4db0-b220-ff0c02663acf")
+	)
+	(junction
+		(at 182.88 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "083a292f-5b0b-4efb-9a68-ec0ac4817777")
+	)
+	(junction
+		(at 63.5 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a1ed11a-83f2-4a22-bbaa-cbe525f5fba8")
+	)
+	(junction
+		(at 72.39 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a778e8d-fbcd-4393-8669-e2df76475663")
+	)
+	(junction
+		(at 213.36 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e127384-1aa1-403b-8730-995ef360c9ba")
+	)
+	(junction
+		(at 104.14 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "137f69df-1a6b-4639-91ae-5a1df4d668b7")
+	)
+	(junction
+		(at 213.36 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15b00411-52fc-4a73-a186-017091388701")
+	)
+	(junction
+		(at 203.2 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15b9dbf2-90d9-44c1-9fe4-183cad311ee4")
+	)
+	(junction
+		(at 63.5 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16ff8fa7-e2f6-4fb7-aea8-04f04a0e199b")
+	)
+	(junction
+		(at 213.36 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ce4f2ba-4a51-4106-812d-81072cabcc3b")
+	)
+	(junction
+		(at 83.82 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ffc5d45-dc4c-4f42-9821-54c47b0a715b")
+	)
+	(junction
+		(at 83.82 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "212cab54-3f5a-4e79-8566-3106df1802d7")
+	)
+	(junction
+		(at 114.3 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29ade6ad-ec27-4115-b343-a31a6234962d")
+	)
+	(junction
+		(at 93.98 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34510fed-750a-48af-9115-d04ef5543278")
+	)
+	(junction
+		(at 193.04 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3896ceac-b801-4d30-9711-1fcb756994d9")
+	)
+	(junction
+		(at 254 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bb655df-6758-46ca-8015-86faa0441296")
+	)
+	(junction
+		(at 233.68 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50b08909-7cda-4be6-b6a4-50a9f9152804")
+	)
+	(junction
+		(at 73.66 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b8f1b78-1cd1-4400-b22f-1b5728ab1cec")
+	)
+	(junction
+		(at 203.2 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63f3acac-20bd-4bc5-8d41-17497e635e42")
+	)
+	(junction
+		(at 182.88 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6507d097-aa7a-488b-97e4-bcf7ad2c03b3")
+	)
+	(junction
+		(at 203.2 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c7aae1c-2ff2-48fd-8ff2-c09b8fedb2e5")
+	)
+	(junction
+		(at 62.23 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70afaa77-ed2b-431a-bf28-43db19f909f0")
+	)
+	(junction
+		(at 104.14 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "777d1a91-033a-4c89-9b81-3139c8da91d5")
+	)
+	(junction
+		(at 30.48 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78c67e35-31ef-45cc-9d77-118209131776")
+	)
+	(junction
+		(at 93.98 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dbc5383-fd9b-42b9-89d4-139e806a1f58")
+	)
+	(junction
+		(at 182.88 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e32e8b2-6b7e-4e5a-9bba-980a7a25dc79")
+	)
+	(junction
+		(at 31.75 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "829fa93a-538e-4398-9896-63de40c80a24")
+	)
+	(junction
+		(at 223.52 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "849ba0a1-a571-4cd9-994c-fd4f1a6b0453")
+	)
+	(junction
+		(at 83.82 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8784a6f7-28c0-44fc-ac07-a8a522f0e9d5")
+	)
+	(junction
+		(at 223.52 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ed7c7c0-53b4-46ce-86de-4ded84b0c315")
+	)
+	(junction
+		(at 171.45 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "926dacbb-226b-46be-a197-af9043838e5d")
+	)
+	(junction
+		(at 224.79 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "952da32f-ec71-4fa3-b139-69596ed5735b")
+	)
+	(junction
+		(at 62.23 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96109573-5002-4cd2-9d6e-75573fa609cd")
+	)
+	(junction
+		(at 213.36 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "979fc746-261c-431d-a853-bf79f7255a91")
+	)
+	(junction
+		(at 234.95 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a20bc6c7-0f93-4f20-86d8-1454ddd9b1e2")
+	)
+	(junction
+		(at 52.07 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a26ff555-48c3-4dc6-9b82-b3ff80851fdd")
+	)
+	(junction
+		(at 224.79 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a531ae90-8d30-441e-83d3-43e5ec84b9de")
+	)
+	(junction
+		(at 53.34 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a59b3554-dcc0-4cd4-a435-bbf3aa3be0b6")
+	)
+	(junction
+		(at 193.04 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a61741e1-2937-4b9d-8d88-2e653020f7e1")
+	)
+	(junction
+		(at 73.66 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa8f941b-8a9b-4076-bc0e-32cadf397538")
+	)
+	(junction
+		(at 203.2 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aabba79a-613b-4097-86ba-7aa525a65b68")
+	)
+	(junction
+		(at 171.45 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae13c9ce-fa27-4f73-8783-deda7915c5bb")
+	)
+	(junction
+		(at 43.18 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0660bb9-7632-48d7-901d-9773ba5ceb36")
+	)
+	(junction
+		(at 104.14 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b116f10e-ce11-41d7-9264-db30a3179f48")
+	)
+	(junction
+		(at 171.45 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be759e45-0902-49a9-9404-69002c3adca4")
+	)
+	(junction
+		(at 68.58 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0c1467f-477a-46a7-9907-5c322dd9a2e2")
+	)
+	(junction
+		(at 243.84 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3ed127f-ed77-4031-83dc-72494bb11bbf")
+	)
+	(junction
+		(at 207.01 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5f2391f-9bd5-4228-b121-5d3f16abc975")
+	)
+	(junction
+		(at 233.68 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c82bc166-3540-477e-b0d4-7c5b4dcdad05")
+	)
+	(junction
+		(at 41.91 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c94ff545-b942-4dd0-9b8b-f42f8e6aa578")
+	)
+	(junction
+		(at 182.88 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbc145a9-2af4-4cef-8479-06001b16659c")
+	)
+	(junction
+		(at 66.04 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce4d2bfc-c2b1-4f4b-b0b1-10da3e44cbbe")
+	)
+	(junction
+		(at 31.75 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf14fa79-de8b-4cd2-85d4-2b61870bd3f7")
+	)
+	(junction
+		(at 30.48 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d477d311-893f-4009-8fd3-7e06dfdf74ad")
+	)
+	(junction
+		(at 72.39 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db25820d-838b-490d-a780-44c61fc443c8")
+	)
+	(junction
+		(at 41.91 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e659c2af-ae74-4d24-9813-6f4f993966d6")
+	)
+	(junction
+		(at 93.98 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e877383a-b267-44ac-aca6-a6c354bce0ae")
+	)
+	(junction
+		(at 245.11 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edb57f46-75eb-4a1e-9cc5-952b184b3f60")
+	)
+	(junction
+		(at 53.34 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4753f93-903f-4134-abac-5a24682ef71e")
+	)
+	(junction
+		(at 83.82 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5821a96-289c-4295-8222-6b689e6c6f1b")
+	)
+	(junction
+		(at 52.07 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f984963f-89a3-4a2f-9c9a-4887400c9ed0")
+	)
+	(junction
+		(at 171.45 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9fe6480-1efc-4786-a2ef-bd5837fcce1c")
+	)
+	(junction
+		(at 93.98 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbe2c8dd-ef16-44ef-b389-382e6dce29b1")
+	)
+	(junction
+		(at 193.04 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffbaa97c-035a-4926-a57b-81b27584c66e")
+	)
+	(wire
+		(pts
+			(xy 203.2 135.89) (xy 203.2 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b7108b-3b62-47e6-8b8f-08b4d9dfc5c8")
+	)
+	(wire
+		(pts
+			(xy 66.04 144.78) (xy 72.39 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075aaec1-8866-4e38-99ca-e387bfbdc304")
+	)
+	(wire
+		(pts
+			(xy 254 106.68) (xy 243.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07666288-89a9-42e0-85c8-c47ba17ca2ea")
+	)
+	(wire
+		(pts
+			(xy 125.73 125.73) (xy 104.14 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084816d4-0734-4a88-8bcb-6c9e8d847fb7")
+	)
+	(wire
+		(pts
+			(xy 93.98 125.73) (xy 93.98 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088934ad-820e-46d5-aec0-0f1c34d3ee99")
+	)
+	(wire
+		(pts
+			(xy 30.48 125.73) (xy 30.48 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab424de-50d5-413d-9046-e82b7cf3ea49")
+	)
+	(wire
+		(pts
+			(xy 233.68 88.9) (xy 233.68 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c00b8a7-10d6-41b5-8cdb-3301b5108cec")
+	)
+	(wire
+		(pts
+			(xy 93.98 109.22) (xy 83.82 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dd3791f-9bc4-4388-999e-d6d259a0a2bf")
+	)
+	(wire
+		(pts
+			(xy 73.66 91.44) (xy 73.66 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ea26964-a5ca-4ab3-b52a-a3f41cd78979")
+	)
+	(polyline
+		(pts
+			(xy 135.89 12.7) (xy 135.89 198.12)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "0f503a2a-9981-4050-aba5-be7a1eb5e13d")
+	)
+	(wire
+		(pts
+			(xy 114.3 91.44) (xy 104.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fcdac86-8a86-4363-bf0a-0313420209f6")
+	)
+	(wire
+		(pts
+			(xy 254 88.9) (xy 266.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a0b9ec-0d5f-40f3-908f-3c52cad15cf7")
+	)
+	(wire
+		(pts
+			(xy 31.75 102.87) (xy 31.75 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d75f78-c872-402e-909b-42cd0b48e80c")
+	)
+	(wire
+		(pts
+			(xy 93.98 102.87) (xy 93.98 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12df4866-745b-4e48-8228-bed5b225889c")
+	)
+	(wire
+		(pts
+			(xy 171.45 135.89) (xy 171.45 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a44343-8597-4309-96bd-aae1a99cf676")
+	)
+	(wire
+		(pts
+			(xy 68.58 109.22) (xy 68.58 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d3ec67-5b43-4e74-abee-5a8608868145")
+	)
+	(wire
+		(pts
+			(xy 243.84 88.9) (xy 243.84 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e6c784-26a6-4b76-9fb7-6d7268d1a6ef")
+	)
+	(wire
+		(pts
+			(xy 43.18 91.44) (xy 53.34 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b969246-d472-48ea-b66e-6832dcfa7ad3")
+	)
+	(wire
+		(pts
+			(xy 182.88 135.89) (xy 182.88 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0abb6f-1066-46b8-84e9-eb476cfdf478")
+	)
+	(wire
+		(pts
+			(xy 223.52 88.9) (xy 233.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e20c6b8-9ed0-4f09-9fb4-d203736867cf")
+	)
+	(wire
+		(pts
+			(xy 161.29 135.89) (xy 161.29 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2019fb2e-0fb0-420d-bddb-8a59ecf87a4a")
+	)
+	(wire
+		(pts
+			(xy 63.5 102.87) (xy 63.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20585a23-8843-4993-8907-e5a22674e90d")
+	)
+	(wire
+		(pts
+			(xy 41.91 125.73) (xy 41.91 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21033ed4-212c-4524-83fa-cc598a0f96c2")
+	)
+	(wire
+		(pts
+			(xy 52.07 144.78) (xy 62.23 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213243be-9264-429e-b947-8d824a3d2d5c")
+	)
+	(wire
+		(pts
+			(xy 53.34 91.44) (xy 53.34 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c94613-29ea-4547-a91b-ca0c39af6937")
+	)
+	(wire
+		(pts
+			(xy 72.39 125.73) (xy 83.82 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22af6bf5-e18c-444a-9fde-c80ec5a78391")
+	)
+	(wire
+		(pts
+			(xy 233.68 88.9) (xy 243.84 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2396e917-1db8-4dfe-869d-e496e9967714")
+	)
+	(wire
+		(pts
+			(xy 62.23 125.73) (xy 72.39 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23cca02e-6555-4bd3-9816-60996a5302d9")
+	)
+	(wire
+		(pts
+			(xy 104.14 91.44) (xy 104.14 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a01781-56df-4710-9a99-3ff3b1a67743")
+	)
+	(wire
+		(pts
+			(xy 213.36 123.19) (xy 213.36 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba72e97-b947-4a9d-b123-dc755eaf20cf")
+	)
+	(wire
+		(pts
+			(xy 193.04 100.33) (xy 193.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30895f4b-1222-497e-ac46-849cc8c5c3d1")
+	)
+	(wire
+		(pts
+			(xy 30.48 138.43) (xy 30.48 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35314110-1902-4ad5-8092-464e898969b0")
+	)
+	(wire
+		(pts
+			(xy 224.79 142.24) (xy 234.95 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "357b8bc1-22be-4b0a-8a18-0aac1eff329d")
+	)
+	(wire
+		(pts
+			(xy 83.82 125.73) (xy 83.82 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f35eac-68d7-423f-bfee-74ee395bec3d")
+	)
+	(wire
+		(pts
+			(xy 52.07 125.73) (xy 52.07 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "369534ec-507a-4753-aa37-1b5522e6ad2d")
+	)
+	(wire
+		(pts
+			(xy 266.7 123.19) (xy 245.11 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38586ab2-0518-4504-80fc-2276a7781da7")
+	)
+	(wire
+		(pts
+			(xy 43.18 102.87) (xy 43.18 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d82683-d877-41c6-aef9-7be2f92e4555")
+	)
+	(wire
+		(pts
+			(xy 203.2 100.33) (xy 203.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e19f4e-e3ae-4ecf-bbcd-489823aa2c82")
+	)
+	(wire
+		(pts
+			(xy 203.2 123.19) (xy 213.36 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9b2fb4-9dc6-4663-830b-643b2daea37d")
+	)
+	(wire
+		(pts
+			(xy 20.32 144.78) (xy 30.48 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af16a23-d903-4d73-b113-9e724a23412c")
+	)
+	(wire
+		(pts
+			(xy 182.88 88.9) (xy 193.04 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c1055ea-84c7-4517-97bd-e1444f7d0086")
+	)
+	(wire
+		(pts
+			(xy 63.5 91.44) (xy 73.66 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c48ea96-b93d-4d0f-ba19-9ad2ce604201")
+	)
+	(wire
+		(pts
+			(xy 63.5 91.44) (xy 63.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da788ae-9d37-4158-99fc-a0637d16eee9")
+	)
+	(wire
+		(pts
+			(xy 104.14 102.87) (xy 104.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e8b947-066c-44ca-83ce-1fb1c85c55a2")
+	)
+	(wire
+		(pts
+			(xy 53.34 102.87) (xy 53.34 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44432a32-48a0-4a76-b5cf-60f634812282")
+	)
+	(wire
+		(pts
+			(xy 161.29 100.33) (xy 161.29 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44499c52-9839-42b9-857a-09f824a2edac")
+	)
+	(wire
+		(pts
+			(xy 224.79 123.19) (xy 224.79 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "458c6c05-13dd-4004-9d7c-4fe0bfb1ad3c")
+	)
+	(wire
+		(pts
+			(xy 62.23 138.43) (xy 62.23 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46c97dbc-62cd-4d3f-9533-9d1291abcb29")
+	)
+	(wire
+		(pts
+			(xy 193.04 123.19) (xy 203.2 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472479c1-f776-4570-9875-acd44aafa48e")
+	)
+	(wire
+		(pts
+			(xy 234.95 142.24) (xy 245.11 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "494de8de-6c8e-467d-92df-b6edc491550e")
+	)
+	(wire
+		(pts
+			(xy 233.68 100.33) (xy 233.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a5076fd-d1dc-4e9f-a4a3-4162a5362725")
+	)
+	(wire
+		(pts
+			(xy 234.95 135.89) (xy 234.95 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a843e06-8dab-418a-b949-2a520bd17554")
+	)
+	(wire
+		(pts
+			(xy 171.45 142.24) (xy 182.88 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c6969a4-9ecb-4fa9-82ec-6875dec5e13f")
+	)
+	(wire
+		(pts
+			(xy 213.36 88.9) (xy 213.36 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502cd47d-c26b-4be8-a316-637edfedb0fd")
+	)
+	(wire
+		(pts
+			(xy 83.82 91.44) (xy 93.98 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "507f224f-99a6-4598-8e80-ec002cf4f38d")
+	)
+	(wire
+		(pts
+			(xy 63.5 109.22) (xy 68.58 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "537a9516-76a2-49ed-82a9-5ed770011dbf")
+	)
+	(wire
+		(pts
+			(xy 161.29 142.24) (xy 171.45 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "540de11d-e6ae-4633-bed6-72a8e107d072")
+	)
+	(wire
+		(pts
+			(xy 161.29 106.68) (xy 171.45 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541b498f-6352-40cb-99dc-6bb43a4a22f3")
+	)
+	(wire
+		(pts
+			(xy 161.29 123.19) (xy 171.45 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5456af40-21d8-4934-b6d2-92971e8c16aa")
+	)
+	(wire
+		(pts
+			(xy 43.18 109.22) (xy 53.34 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a11f33-ae9c-4e72-9075-940d9bb1708f")
+	)
+	(wire
+		(pts
+			(xy 72.39 144.78) (xy 83.82 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e156bc-9db8-4865-b86b-f1fe270ed0bb")
+	)
+	(wire
+		(pts
+			(xy 193.04 106.68) (xy 203.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "582b6a6f-23b5-42a2-b7d8-b831cbff6142")
+	)
+	(wire
+		(pts
+			(xy 213.36 106.68) (xy 223.52 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a468389-c6db-4250-a9fd-231a9b60a7d8")
+	)
+	(wire
+		(pts
+			(xy 30.48 144.78) (xy 41.91 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac929f3-5fd7-4628-85e1-add2bf814807")
+	)
+	(wire
+		(pts
+			(xy 21.59 102.87) (xy 21.59 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d80d85b-93dd-413a-8554-6ccb0d0c9825")
+	)
+	(wire
+		(pts
+			(xy 67.31 62.23) (xy 67.31 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eeec646-7d92-4e54-ae35-c5c20b30e29e")
+	)
+	(wire
+		(pts
+			(xy 104.14 125.73) (xy 104.14 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa61619-286a-4ff7-a7ad-8f8a5ff35b61")
+	)
+	(wire
+		(pts
+			(xy 72.39 125.73) (xy 72.39 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fb2b2a1-e9da-4956-9948-6a550c17ed11")
+	)
+	(wire
+		(pts
+			(xy 182.88 88.9) (xy 182.88 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f063ca-e417-4d35-90a2-842e34fc94a7")
+	)
+	(wire
+		(pts
+			(xy 62.23 125.73) (xy 62.23 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6438c7cb-1540-48be-8d29-8ce401906439")
+	)
+	(wire
+		(pts
+			(xy 93.98 144.78) (xy 104.14 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64fdb0f5-f25c-4192-92cd-52403c940899")
+	)
+	(wire
+		(pts
+			(xy 254 100.33) (xy 254 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66279db1-7b93-49a2-8488-a84e37660d9f")
+	)
+	(wire
+		(pts
+			(xy 93.98 91.44) (xy 104.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b96972d-1fdd-4f99-89fd-e2db42abf9f7")
+	)
+	(wire
+		(pts
+			(xy 43.18 91.44) (xy 43.18 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cd76977-9847-4288-9a5f-a3db5fa3b107")
+	)
+	(wire
+		(pts
+			(xy 207.01 142.24) (xy 213.36 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e80071f-b671-4f94-9b3e-380e627e9ced")
+	)
+	(wire
+		(pts
+			(xy 93.98 91.44) (xy 93.98 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f88ba42-46d5-4459-8a3c-840d5dceab8c")
+	)
+	(wire
+		(pts
+			(xy 53.34 109.22) (xy 63.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7121c4ee-3cb4-4eea-b423-1e6b1b0dac6c")
+	)
+	(wire
+		(pts
+			(xy 207.01 73.66) (xy 207.01 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7213d291-39bf-4c2a-b0fe-ef7fad3c59ca")
+	)
+	(wire
+		(pts
+			(xy 53.34 91.44) (xy 63.5 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7256ce86-cf4b-49d6-8b83-2dbca262efd7")
+	)
+	(wire
+		(pts
+			(xy 245.11 123.19) (xy 245.11 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "726e5974-1dc2-4040-9e62-5f426bd7725b")
+	)
+	(wire
+		(pts
+			(xy 171.45 88.9) (xy 171.45 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b6e27d-31ca-4d8d-82b3-13263357ff13")
+	)
+	(wire
+		(pts
+			(xy 224.79 123.19) (xy 234.95 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772eeb96-c5f3-486f-82be-f0421dd4f892")
+	)
+	(wire
+		(pts
+			(xy 20.32 125.73) (xy 30.48 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "773f487b-e5d7-44aa-b0fe-ece1a288d98b")
+	)
+	(wire
+		(pts
+			(xy 233.68 106.68) (xy 223.52 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777953a0-9810-4797-8db6-ce826bca8cb5")
+	)
+	(wire
+		(pts
+			(xy 213.36 69.85) (xy 213.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a168475-74a1-430a-ad18-0c455bf1914b")
+	)
+	(wire
+		(pts
+			(xy 104.14 144.78) (xy 104.14 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dfe480f-8075-47af-9b9a-10c3f85648f8")
+	)
+	(wire
+		(pts
+			(xy 52.07 138.43) (xy 52.07 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80612539-134d-4bd7-b9e8-d80ed0db7eea")
+	)
+	(wire
+		(pts
+			(xy 254 92.71) (xy 254 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81599d05-749c-4ccc-940d-eb5e2d5a493f")
+	)
+	(wire
+		(pts
+			(xy 73.66 91.44) (xy 83.82 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "815ea7ad-6ed3-4e2c-bb8d-387ae744782b")
+	)
+	(wire
+		(pts
+			(xy 213.36 88.9) (xy 223.52 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81af9e56-4cf1-490a-9c7e-a0a2ca1ebd3e")
+	)
+	(wire
+		(pts
+			(xy 73.66 109.22) (xy 83.82 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8377efc3-e597-47f6-b506-d5e9638eef86")
+	)
+	(wire
+		(pts
+			(xy 207.01 146.05) (xy 207.01 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8650f198-0c8e-4b3d-8fdd-211952d388b8")
+	)
+	(wire
+		(pts
+			(xy 234.95 123.19) (xy 245.11 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8842fad2-1f51-4995-9cc0-2cdda3234eae")
+	)
+	(wire
+		(pts
+			(xy 182.88 123.19) (xy 193.04 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac215b4-588d-4fd9-ae7e-0ca26a6dad44")
+	)
+	(wire
+		(pts
+			(xy 245.11 142.24) (xy 245.11 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e704d78-40de-4d40-aa95-41bd6a38101e")
+	)
+	(wire
+		(pts
+			(xy 182.88 123.19) (xy 182.88 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d54bda-ec90-4685-b3c4-77dd64d077c6")
+	)
+	(wire
+		(pts
+			(xy 31.75 91.44) (xy 31.75 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9217b2f7-3a03-4e9a-8d03-dbeee5969e57")
+	)
+	(wire
+		(pts
+			(xy 83.82 138.43) (xy 83.82 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "964a7cb4-669a-4a18-aec1-7a7aca505cce")
+	)
+	(wire
+		(pts
+			(xy 52.07 125.73) (xy 62.23 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "982a673d-b453-46d9-9bd7-199394fafab1")
+	)
+	(wire
+		(pts
+			(xy 243.84 106.68) (xy 233.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af332ee-7520-4410-9dd7-5a6c09c822db")
+	)
+	(wire
+		(pts
+			(xy 67.31 74.93) (xy 67.31 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bb6f7ce-c609-465e-87b5-cae9e2c80c2e")
+	)
+	(wire
+		(pts
+			(xy 83.82 144.78) (xy 93.98 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c643bf3-7c54-4733-8c79-882256fccefc")
+	)
+	(wire
+		(pts
+			(xy 31.75 109.22) (xy 43.18 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce766b6-1d86-4bc5-8f8c-d1a80c62c73e")
+	)
+	(wire
+		(pts
+			(xy 213.36 135.89) (xy 213.36 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d407b84-59b6-40c8-950f-54337a719195")
+	)
+	(wire
+		(pts
+			(xy 114.3 109.22) (xy 104.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4dc8e3-327d-4410-aeaa-d1a7b26df640")
+	)
+	(wire
+		(pts
+			(xy 125.73 91.44) (xy 125.73 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dbc6b20-c26f-46aa-847b-9b003ce3e2e3")
+	)
+	(wire
+		(pts
+			(xy 66.04 148.59) (xy 66.04 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9deeca7b-c49b-419e-a673-6f5afc88d9a3")
+	)
+	(wire
+		(pts
+			(xy 234.95 123.19) (xy 234.95 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec82c06-e198-4484-ac47-43b5fa7a020d")
+	)
+	(wire
+		(pts
+			(xy 161.29 88.9) (xy 161.29 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e2c33f-abc9-4097-9005-129748103402")
+	)
+	(wire
+		(pts
+			(xy 73.66 71.12) (xy 73.66 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a84388-f62d-4e1c-aeb1-3967cb7f4240")
+	)
+	(wire
+		(pts
+			(xy 171.45 88.9) (xy 161.29 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c60e9e-7d49-491d-8ec7-6ac8fb413932")
+	)
+	(wire
+		(pts
+			(xy 193.04 135.89) (xy 193.04 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a568dcf3-32c5-42ca-8bfb-4c882d4079f5")
+	)
+	(wire
+		(pts
+			(xy 193.04 142.24) (xy 203.2 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f17ea1-acc6-44e0-9a4d-0e419704e20c")
+	)
+	(wire
+		(pts
+			(xy 213.36 123.19) (xy 224.79 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7ceb2a5-631e-4d9c-9057-1410df14e2fd")
+	)
+	(wire
+		(pts
+			(xy 171.45 123.19) (xy 182.88 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8482664-9d3b-4d9f-bc4e-82582a3062dd")
+	)
+	(wire
+		(pts
+			(xy 20.32 138.43) (xy 20.32 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf0e693-f5e3-49ed-a790-ceed743339d6")
+	)
+	(wire
+		(pts
+			(xy 254 88.9) (xy 243.84 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abcad7da-a4b7-44bf-a140-704be6573666")
+	)
+	(wire
+		(pts
+			(xy 203.2 88.9) (xy 203.2 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac69b1a6-5af1-40ad-863b-c37b29ae11dc")
+	)
+	(wire
+		(pts
+			(xy 161.29 128.27) (xy 161.29 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad26b835-9220-4588-8dff-e90f82974750")
+	)
+	(wire
+		(pts
+			(xy 72.39 138.43) (xy 72.39 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad6e250d-3760-4143-a89d-8d751dba0c22")
+	)
+	(wire
+		(pts
+			(xy 182.88 100.33) (xy 182.88 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b021a350-44ab-41f8-a197-72857498f907")
+	)
+	(wire
+		(pts
+			(xy 114.3 102.87) (xy 114.3 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1add3e8-39c5-4618-b451-5be5ec625a95")
+	)
+	(wire
+		(pts
+			(xy 193.04 88.9) (xy 193.04 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b308910b-6a47-4516-9503-85b652eec954")
+	)
+	(wire
+		(pts
+			(xy 83.82 109.22) (xy 83.82 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b34ef32e-0393-40ce-8ab9-4aaff6bcb0df")
+	)
+	(wire
+		(pts
+			(xy 203.2 123.19) (xy 203.2 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8609842-9c51-43a0-bec8-21ee1800ad6d")
+	)
+	(wire
+		(pts
+			(xy 203.2 106.68) (xy 213.36 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc1b101b-0b53-4f16-aef0-31abfcf31b58")
+	)
+	(wire
+		(pts
+			(xy 182.88 142.24) (xy 193.04 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc58e73f-b92f-4906-8d03-b67947a5969c")
+	)
+	(wire
+		(pts
+			(xy 114.3 91.44) (xy 125.73 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcbf9b94-5951-46dd-96af-b18d0f97d657")
+	)
+	(wire
+		(pts
+			(xy 213.36 100.33) (xy 213.36 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be2d0ed7-2805-42d6-9a95-bae64451bb55")
+	)
+	(wire
+		(pts
+			(xy 68.58 109.22) (xy 73.66 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be47f555-aa89-4437-9573-f748b07fed0f")
+	)
+	(wire
+		(pts
+			(xy 193.04 123.19) (xy 193.04 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12e37e0-478f-461c-98fc-65e4cb5ac34f")
+	)
+	(wire
+		(pts
+			(xy 210.82 69.85) (xy 213.36 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c37517be-8e44-4c38-a8cd-ff5f24fdafb0")
+	)
+	(wire
+		(pts
+			(xy 62.23 144.78) (xy 66.04 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c48729d2-7e5f-4e34-9407-f97627b771e7")
+	)
+	(wire
+		(pts
+			(xy 71.12 71.12) (xy 73.66 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c48e8e9d-ef29-449c-b02e-010b95136ef3")
+	)
+	(wire
+		(pts
+			(xy 83.82 91.44) (xy 83.82 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c84ea039-90c9-4ee1-b187-da98442c5a41")
+	)
+	(wire
+		(pts
+			(xy 171.45 106.68) (xy 182.88 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8a9f7ec-11f8-4277-a0fd-800163d8e3b7")
+	)
+	(wire
+		(pts
+			(xy 114.3 95.25) (xy 114.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c0c5d2-a241-4bb3-aef0-c66d242964df")
+	)
+	(wire
+		(pts
+			(xy 83.82 125.73) (xy 93.98 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e18b31-05f7-461e-8f79-461a0eac921d")
+	)
+	(wire
+		(pts
+			(xy 41.91 138.43) (xy 41.91 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3788d68-f925-4293-9db7-87d0a3439f95")
+	)
+	(wire
+		(pts
+			(xy 104.14 109.22) (xy 93.98 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4519c62-9759-40d4-900b-c4a10ebf99a6")
+	)
+	(wire
+		(pts
+			(xy 193.04 88.9) (xy 203.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5cd5a2e-5172-4794-ad72-d987b48607e8")
+	)
+	(wire
+		(pts
+			(xy 31.75 91.44) (xy 21.59 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5e567d7-7f04-4764-b884-f01defa98429")
+	)
+	(wire
+		(pts
+			(xy 73.66 102.87) (xy 73.66 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ba2e6e-2ed0-4534-ada4-2bdc1e6f90ca")
+	)
+	(wire
+		(pts
+			(xy 30.48 125.73) (xy 41.91 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df015fdf-1f23-4e70-abe8-663761e8c5af")
+	)
+	(wire
+		(pts
+			(xy 21.59 91.44) (xy 21.59 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df90206d-2652-4166-845a-bfa5378a060f")
+	)
+	(wire
+		(pts
+			(xy 21.59 109.22) (xy 31.75 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0364b5f-dd46-42ca-bf31-a2c8b66d2ba7")
+	)
+	(wire
+		(pts
+			(xy 20.32 130.81) (xy 20.32 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e13c5d2e-2e0f-4018-bde7-52733cbf5655")
+	)
+	(wire
+		(pts
+			(xy 223.52 88.9) (xy 223.52 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27cc59f-9cc4-44e7-a932-3364cbaafda7")
+	)
+	(wire
+		(pts
+			(xy 93.98 138.43) (xy 93.98 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f143f0-e893-4564-9a3f-8a626dbfd5e2")
+	)
+	(wire
+		(pts
+			(xy 182.88 106.68) (xy 193.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e50e8cd2-ef60-4540-9638-9204fbfb6e99")
+	)
+	(wire
+		(pts
+			(xy 171.45 123.19) (xy 171.45 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78d5224-7e2f-4479-b5f8-28e9b8d46dd7")
+	)
+	(wire
+		(pts
+			(xy 223.52 106.68) (xy 223.52 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b8dd3a-08f5-4eab-babb-0768aa9170b0")
+	)
+	(wire
+		(pts
+			(xy 266.7 88.9) (xy 266.7 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea0770ca-dbfe-4230-81d8-d6add2cbda4e")
+	)
+	(wire
+		(pts
+			(xy 171.45 88.9) (xy 182.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb4c4e61-f603-413c-b12b-3c2966597ef1")
+	)
+	(wire
+		(pts
+			(xy 243.84 100.33) (xy 243.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3eb6812-bd8d-4261-a77a-ce8f4fd283c2")
+	)
+	(wire
+		(pts
+			(xy 93.98 125.73) (xy 104.14 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f476f908-3005-4ad1-88a1-5e45bbca5a62")
+	)
+	(wire
+		(pts
+			(xy 203.2 88.9) (xy 213.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f504e4a7-aac2-489e-a8f8-b91ed73785a4")
+	)
+	(wire
+		(pts
+			(xy 224.79 135.89) (xy 224.79 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f634c33d-3c5d-4afc-a434-ade0840df9af")
+	)
+	(wire
+		(pts
+			(xy 203.2 142.24) (xy 207.01 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6bb0f98-9f58-4405-ae89-7c788f7e7a57")
+	)
+	(wire
+		(pts
+			(xy 207.01 60.96) (xy 207.01 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d83303-f524-4d88-96c4-2a931872aa89")
+	)
+	(wire
+		(pts
+			(xy 41.91 144.78) (xy 52.07 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd94c033-0998-451c-814e-ce42f6e8cc6a")
+	)
+	(wire
+		(pts
+			(xy 213.36 142.24) (xy 224.79 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff25d013-7e4c-4139-82e0-cea70633a44c")
+	)
+	(wire
+		(pts
+			(xy 41.91 125.73) (xy 52.07 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff819dc5-80fb-49b6-b401-2a817adddf56")
+	)
+	(wire
+		(pts
+			(xy 31.75 91.44) (xy 43.18 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffcc1357-7fdb-4d7a-be0c-268a684f4564")
+	)
+	(wire
+		(pts
+			(xy 171.45 100.33) (xy 171.45 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffd48778-05fd-480b-8eb5-9059ab39b907")
+	)
+	(global_label "GND_R"
+		(shape input)
+		(at 207.01 77.47 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "641e6800-7d61-41a3-992b-587d1e583382")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.01 86.5633 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_R"
+		(shape input)
+		(at 207.01 146.05 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "669e6918-9fc0-4be7-87ea-73cb7a45e572")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.01 155.1433 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_R"
+		(shape input)
+		(at 208.28 106.68 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b676e70-043e-4d77-a866-8ba01af29dab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.28 115.7733 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 68.58 110.49 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3b9584b-1fe2-4460-8e7f-fe02849d1a54")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 119.3414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 67.31 76.2 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6223d60-3d71-4b0c-afd2-1eaad482049d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 85.0514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 66.04 148.59 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d92957d4-cea0-4277-bdba-523ebda8ef3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.04 157.4414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC_5_L"
+		(shape input)
+		(at 67.31 62.23 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd287866-de4c-425e-9c28-4e86e1b37746")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 51.4434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC_5_R"
+		(shape input)
+		(at 207.01 60.96 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e097c800-2357-4904-83df-509a078f6978")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.01 49.9315 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 31.75 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "012c8abc-a571-4e69-b378-35d2378b3a77")
+		(property "Reference" "LEDL2"
+			(at 35.56 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 35.56 101.9174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 31.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 31.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 31.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d4be7c4-287d-4b4c-8377-da25a5b5ebc5")
+		)
+		(pin "1"
+			(uuid "fde49a45-684c-49a5-8477-496026bd9005")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDL2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 67.31 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08f7af6d-4788-4b41-b4de-6cd5fcf702d9")
+		(property "Reference" "RV1"
+			(at 64.77 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 64.77 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:RES-ADJ-SMD_GF063P1"
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05b55a50-32a0-4ec2-aa5f-4a69a39fdbc7")
+		)
+		(pin "3"
+			(uuid "e4ed655c-9830-40b0-8a19-7d5bee73c298")
+		)
+		(pin "2"
+			(uuid "8e0ad6ba-52bc-41c0-b712-5ce445697cc4")
+		)
+		(instances
+			(project ""
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 161.29 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14987b3f-a0e2-4497-bfde-9c65a32ad337")
+		(property "Reference" "LEDR11"
+			(at 165.1 132.3974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 165.1 134.9374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 161.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 161.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dacea7f8-0b90-4551-9469-9f5e36ee4535")
+		)
+		(pin "1"
+			(uuid "f81c8365-4296-45cf-88bf-9efe136187cc")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDR11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 193.04 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c9f1f55-7b80-4334-8cb8-1b4da7b1e66f")
+		(property "Reference" "LEDR14"
+			(at 196.85 132.3974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 196.85 134.9374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 193.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 193.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 193.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0fdf3b2c-0a41-4d71-a8ef-342e68dd70e3")
+		)
+		(pin "1"
+			(uuid "e7f59792-9001-4707-8da5-150ca8c6442d")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDR14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 224.79 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d674b8c-75c9-4fdd-bca4-92a5d268e1ce")
+		(property "Reference" "LEDR17"
+			(at 228.6 132.3974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 228.6 134.9374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 224.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 224.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 224.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab4078e3-0100-499f-b63f-1b56554558ca")
+		)
+		(pin "1"
+			(uuid "0d07c830-98f1-4f17-8f67-f8a253c9d5c6")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDR17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 243.84 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20240145-90a7-457b-b63c-e51000996bc3")
+		(property "Reference" "LEDR9"
+			(at 247.65 96.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 247.65 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 243.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 243.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 243.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "562d2e13-df31-4bd7-ae40-6c6db41b4b33")
+		)
+		(pin "1"
+			(uuid "536bd277-c1fa-4cdb-94dd-e57779d99f08")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDR9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 245.11 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21c93fff-ad52-422e-b63f-94cc4d92acd5")
+		(property "Reference" "LEDR19"
+			(at 248.92 132.3974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 248.92 134.9374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 245.11 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 245.11 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 245.11 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e2cc0797-49b7-4386-a0df-bdf2836d90ac")
+		)
+		(pin "1"
+			(uuid "3abdefbf-2454-42ed-a787-23423cd2a717")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDR19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 254 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26ccf9dd-a41e-47c8-9ac8-333ad24ce678")
+		(property "Reference" "LEDR10"
+			(at 257.81 96.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 257.81 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 254 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 254 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 254 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df5dede5-2444-40e2-8f9a-8a1ff692ea42")
+		)
+		(pin "1"
+			(uuid "9c5fc780-1549-495c-b770-b40a875ba4ef")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDR10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 83.82 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2737f282-bbaf-4206-952d-03a6d6b7a08d")
+		(property "Reference" "LEDL7"
+			(at 87.63 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 87.63 101.9174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 83.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 83.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 83.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "809ecb06-ea92-4bd2-9c3e-5e89156042c1")
+		)
+		(pin "1"
+			(uuid "06ad21e6-6d45-4bc9-83f4-13daeaa09b1c")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDL7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 41.91 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "334114eb-9d5d-4acc-9545-045ccda54619")
+		(property "Reference" "LEDL13"
+			(at 45.72 134.9374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 45.72 137.4774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 41.91 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 41.91 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 41.91 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e234e9a-5e7f-4241-96df-a123047fec6f")
+		)
+		(pin "1"
+			(uuid "a0899e29-c105-41f0-ad79-c6ac269f68c3")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDL13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 104.14 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f31a400-f60a-40bc-9ce7-cf0f8abd793f")
+		(property "Reference" "LEDL19"
+			(at 107.95 134.9374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 107.95 137.4774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a23d552c-e24d-4989-8705-a3c0d346a6e0")
+		)
+		(pin "1"
+			(uuid "11cb2dd2-9a54-43b8-bb4c-ab11a4d7d44c")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDL19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 203.2 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43d5466f-ad87-410f-a0c5-2e012a27dcad")
+		(property "Reference" "LEDR5"
+			(at 207.01 96.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 207.01 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8699201f-76ec-42e0-a4b3-b1f20442bb6f")
+		)
+		(pin "1"
+			(uuid "6dbdb193-79bc-4a59-b4b4-d1a8a1494c43")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDR5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 63.5 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4eb76f46-a3c7-4df4-846d-35cc8a9caaa1")
+		(property "Reference" "LEDL5"
+			(at 67.31 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 67.31 101.9174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 63.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 63.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 63.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de5f1a8c-377e-4d49-b303-9204d4e56593")
+		)
+		(pin "1"
+			(uuid "d6f6bc7f-1b18-4fa0-93c0-6b3fe5f340b6")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDL5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 20.32 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55ffeeaf-041d-4b9b-94b9-3b554146fc48")
+		(property "Reference" "LEDL11"
+			(at 24.13 134.9374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 24.13 137.4774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 20.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 20.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 20.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b1105c7e-77ee-41aa-94b5-a79c807266cf")
+		)
+		(pin "1"
+			(uuid "4cce0c60-53eb-4494-bfab-699af0db96ae")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDL11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 104.14 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59d80a83-d1e1-4697-acf8-6f8d5b4a324d")
+		(property "Reference" "LEDL9"
+			(at 107.95 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 107.95 101.9174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 104.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 104.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cbd2b9a6-6d1c-4e2c-8016-f7e042178285")
+		)
+		(pin "1"
+			(uuid "e2c7e140-cd16-4028-98c7-f907d6c8b0c0")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDL9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 52.07 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cb4f883-0c8a-4b7b-9640-98a9dcf2205d")
+		(property "Reference" "LEDL14"
+			(at 55.88 134.9374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 55.88 137.4774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 52.07 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 52.07 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 52.07 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "551d0083-2cb2-4914-b198-a97fdd30c6c2")
+		)
+		(pin "1"
+			(uuid "58cc9956-29c2-4dca-9873-21d0f1cbb777")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDL14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 182.88 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66f178b5-168a-4f50-b178-9e544847674e")
+		(property "Reference" "LEDR13"
+			(at 186.69 132.3974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 186.69 134.9374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 182.88 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 182.88 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 182.88 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc76d804-cbe4-4206-85aa-383775fa1880")
+		)
+		(pin "1"
+			(uuid "1433d2d8-f88c-4c82-a8ff-b42ca646d3e6")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDR13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 234.95 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ad44883-46e1-4be0-9bdc-74d2fb9b2507")
+		(property "Reference" "LEDR18"
+			(at 238.76 132.3974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 238.76 134.9374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 234.95 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 234.95 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 234.95 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b53dbae3-cfc3-46a7-8de0-359bfdd89672")
+		)
+		(pin "1"
+			(uuid "2ec8b641-baf0-40b0-bee5-5a43532b83f1")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDR18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 73.66 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72fbdc09-82fe-4550-89e4-1a0867ca1b96")
+		(property "Reference" "LEDL6"
+			(at 77.47 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 77.47 101.9174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 73.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 73.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 73.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53dbcec7-840c-4de7-9bff-99e88dcbbb57")
+		)
+		(pin "1"
+			(uuid "2519daea-676c-410a-862e-75c39ba1d2ad")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDL6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 72.39 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74ee5eaf-e99e-4374-8364-d80132c63c22")
+		(property "Reference" "LEDL16"
+			(at 76.2 134.9374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 76.2 137.4774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 72.39 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 72.39 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 72.39 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2439408-019a-47be-a676-c20b06a243a4")
+		)
+		(pin "1"
+			(uuid "6dd55044-cf9c-463c-867c-f60bd7880d05")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDL16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 62.23 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c8cabd8-5d5d-4097-87f0-6b2e264a3e6e")
+		(property "Reference" "LEDL15"
+			(at 66.04 134.9374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 66.04 137.4774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9037571d-2c9c-4d10-b685-682b33621f06")
+		)
+		(pin "1"
+			(uuid "bd713c6c-760e-41bd-b62a-55eb32a192df")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDL15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 207.01 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8089c4ff-e82c-4c78-942a-a694835fa164")
+		(property "Reference" "RV2"
+			(at 204.47 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 204.47 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:RES-ADJ-SMD_GF063P1"
+			(at 207.01 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 207.01 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "961e4d82-788f-464a-ada6-95708274d779")
+		)
+		(pin "3"
+			(uuid "b38e1a2e-287e-4420-bedb-43fecd919148")
+		)
+		(pin "2"
+			(uuid "4f29693c-5136-4b48-a9e2-e9e8dcdba307")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "RV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 171.45 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82c10260-dad7-4759-8bdf-2f3bc633e8d0")
+		(property "Reference" "LEDR2"
+			(at 175.26 96.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 175.26 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 171.45 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 171.45 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 171.45 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b1087cd1-e32a-4eb8-8468-d6970dc5eeb8")
+		)
+		(pin "1"
+			(uuid "1869fba1-f9f7-486d-8c1a-74cbf4e191f0")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 213.36 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8935fb2c-c62f-4bf7-85ef-f6d3a894ee76")
+		(property "Reference" "LEDR6"
+			(at 217.17 96.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 217.17 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 213.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 213.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 213.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62f03ddd-42e0-4d94-b666-7deb7566426e")
+		)
+		(pin "1"
+			(uuid "7afee011-aa34-4521-8163-6bbcdf2143dd")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDR6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 30.48 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f940e90-8d20-495e-bc9a-6ac7388cc7a3")
+		(property "Reference" "LEDL12"
+			(at 34.29 134.9374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 34.29 137.4774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 30.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 30.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 30.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e527d8f-1e8f-4bf3-bf29-f4a23ac1d006")
+		)
+		(pin "1"
+			(uuid "26060a78-7e59-469f-9dc5-45c1233ca0d6")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDL12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 53.34 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e552bc2-98ce-48b6-baf4-881eab5a2797")
+		(property "Reference" "LEDL4"
+			(at 57.15 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 57.15 101.9174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 53.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 53.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 53.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4230a808-68ca-4557-8631-dfa94cac9c9f")
+		)
+		(pin "1"
+			(uuid "91bf4744-fa6d-46ce-9f07-1f52ed378944")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDL4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 93.98 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3e4cb82-3d4b-44be-a8b1-bc1f26dafc9f")
+		(property "Reference" "LEDL8"
+			(at 97.79 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 97.79 101.9174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 93.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 93.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 93.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91e6145b-2a6c-4438-b6c3-c69c1d295430")
+		)
+		(pin "1"
+			(uuid "bc0fb1d3-dfaf-4f4a-a9e3-dabae01240c3")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDL8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 213.36 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a465ea13-6e4c-40fe-b9f0-17f47f8b4adc")
+		(property "Reference" "LEDR16"
+			(at 217.17 132.3974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 217.17 134.9374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 213.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 213.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 213.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7eec2d1-e7e9-4bdb-83b2-d0b0f7257599")
+		)
+		(pin "1"
+			(uuid "47699e60-217c-446c-9f47-0484714ed298")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDR16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 182.88 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a917a405-f96c-4574-9ac6-28c7a0a82da0")
+		(property "Reference" "LEDR3"
+			(at 186.69 96.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 186.69 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f9afa60-ff19-433a-8523-9fe6ac4763ed")
+		)
+		(pin "1"
+			(uuid "00a0dece-3fc6-4ec1-8578-ed2e09d45914")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 171.45 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9e9fb37-3550-46cc-9ca8-f76377962915")
+		(property "Reference" "LEDR12"
+			(at 175.26 132.3974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 175.26 134.9374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 171.45 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 171.45 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 171.45 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05b4ba1c-3a48-49c4-8154-11e3cae9413c")
+		)
+		(pin "1"
+			(uuid "8fd60d82-ccd8-4246-9705-82ea565c476f")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDR12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 161.29 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4119773-bc3e-46c0-ab34-416fc20eefea")
+		(property "Reference" "LEDR1"
+			(at 165.1 96.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 165.1 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff0b8984-df53-4990-ac72-44a156dcbeed")
+		)
+		(pin "1"
+			(uuid "e3ad0e3d-e1f3-449e-86c6-8d7c593362c9")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 233.68 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6fb1ddd-8a1a-4424-b9f4-a24a844bf2a0")
+		(property "Reference" "LEDR8"
+			(at 237.49 96.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 237.49 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 233.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 233.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 233.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "41aa978c-ca9a-4ab9-82a0-303ee496fe94")
+		)
+		(pin "1"
+			(uuid "2cabb9fc-2cd2-409c-8a67-37b96ae995ed")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDR8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 193.04 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9448004-9832-4f69-b8d4-c863f2952c5c")
+		(property "Reference" "LEDR4"
+			(at 196.85 96.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 196.85 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 193.04 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 193.04 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 193.04 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3132595f-30e5-401c-815f-c0034a74af5f")
+		)
+		(pin "1"
+			(uuid "b80cf9f1-4858-497a-9ca2-ddf37147ff53")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDR4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 223.52 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5567ba0-8b22-4faf-9af0-019c724c4836")
+		(property "Reference" "LEDR7"
+			(at 227.33 96.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 227.33 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48d39e21-05f6-4e6a-8243-ad260732a465")
+		)
+		(pin "1"
+			(uuid "42efae65-705a-4d3a-a856-0623d6d4fb00")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDR7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 43.18 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6e12b96-d186-4e66-b419-3b62bd9f363f")
+		(property "Reference" "LEDL3"
+			(at 46.99 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 46.99 101.9174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 43.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 43.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 43.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3f609f9-8bae-436f-b01d-48d7b00cfdfe")
+		)
+		(pin "1"
+			(uuid "efb0d0a2-1d3e-4cb7-bdb0-67b0137f360c")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDL3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 83.82 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1abe067-0549-4cfd-81d0-d8fc8f50d6d3")
+		(property "Reference" "LEDL17"
+			(at 87.63 134.9374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 87.63 137.4774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 83.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 83.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 83.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae0ed36e-896f-4b98-bc91-b97b2e72dbcd")
+		)
+		(pin "1"
+			(uuid "45235846-5e08-4eae-88bd-dbfdf25375f4")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDL17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 114.3 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5c14b4a-d3b3-4c1c-9275-aba4994797a7")
+		(property "Reference" "LEDL10"
+			(at 118.11 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 118.11 101.9174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 114.3 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 114.3 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 114.3 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9edd7dde-a0d7-4279-8614-2e06ae74af77")
+		)
+		(pin "1"
+			(uuid "2f784c29-daa8-4947-9c48-385c81ee540b")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDL10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 21.59 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7b5ba83-7f66-4e84-aef4-c9d52fdf0bb8")
+		(property "Reference" "LEDL1"
+			(at 25.4 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 25.4 101.9174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 21.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 21.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 21.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "82814111-9ad4-4125-a211-8601f923d767")
+		)
+		(pin "1"
+			(uuid "38feb697-ff11-4094-bd4e-720565c48ad7")
+		)
+		(instances
+			(project ""
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 93.98 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee173e1b-1e32-456f-963f-76e2b4b0aed3")
+		(property "Reference" "LEDL18"
+			(at 97.79 134.9374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 97.79 137.4774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 93.98 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 93.98 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 93.98 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "43f4eed6-d66b-4576-bada-9900c69ff83f")
+		)
+		(pin "1"
+			(uuid "7c46bd6c-977d-43fa-8db8-3b9f521bd3fb")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDL18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 203.2 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f32269ec-ceb5-4875-920e-fb37416db315")
+		(property "Reference" "LEDR15"
+			(at 207.01 132.3974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 207.01 134.9374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
+			(at 203.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 203.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 203.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2457ebc-bb09-43a9-a1f6-5bb107220c91")
+		)
+		(pin "1"
+			(uuid "854e4056-7c1e-48ab-9096-7d71e65595bf")
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48/870a01e4-4f17-4980-b3c3-9bbd85dd0f12"
+					(reference "LEDR15")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
