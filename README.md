@@ -33,12 +33,12 @@ This repo contrains the bom and front layer pos files for outsourcing assembly o
 
 Unlike the original totem design, generating the bottom pos file for assembling the switch sharf is also possible, though JLCPCB doesn't offer assembly on both sides for the time being.  
 
-## Paths for improvemnet
+## Paths for improvement
 
 - Switch out the developpement board in favor of having more accessible pins : 
-    - re-use my known to be good stm32 circuit -> removes the need to soder on the dev board + port QMK or ZMK to board
+    - re-use my known to be good stm32 circuit -> removes the need to soder on the dev board + port QMK or ZMK to board \
         downside : design will be harder to re-use for the mechanical keyboard comunity as flashing the firmware now requires a jtag
-    - use another commonly used dev board as a controller 
+    - use another commonly used dev board as a controller \
         downside : still requires to soder on the dev board 
 
 - Make backlight control be more easily accessible : 
