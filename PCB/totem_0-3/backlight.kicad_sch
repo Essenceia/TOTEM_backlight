@@ -9,189 +9,6 @@
 		(comment 1 "Pimped by Essenceia")
 	)
 	(lib_symbols
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Potentiometer"
 			(pin_names
 				(offset 1.016)
@@ -356,6 +173,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Totem_lib:0603Whitelight_C2290"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603White light_C2290"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Kailh_Keyboard_Shaft:LED0603-R-RD_WHITE"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2290"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603Whitelight_C2290_0_1"
+				(polyline
+					(pts
+						(xy -3.81 2.03) (xy -2.79 1.52) (xy -3.3 1.02) (xy -3.81 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.79 3.05) (xy -1.78 2.54) (xy -2.29 2.03) (xy -2.79 3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.03 0.25) (xy -3.81 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.76) (xy -1.27 -3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.02 1.27) (xy -2.79 3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.79) (xy -1.27 -1.27) (xy 1.27 0.51) (xy 1.27 -2.79)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -1.27 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "R I G H T"
 		(exclude_from_sim no)
@@ -380,46 +365,34 @@
 		(uuid "91874d27-c9a8-4557-a917-2fcb9d2ae688")
 	)
 	(junction
-		(at 234.95 123.19)
+		(at 204.47 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "029a2d38-c9d4-4146-87d1-660dd15811bd")
+		(uuid "006d303a-6c68-4613-912a-57d3ad567fc4")
 	)
 	(junction
-		(at 193.04 123.19)
+		(at 204.47 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "03a2f29e-33d7-4994-8aa4-9d8a7dd512c6")
+		(uuid "0454a3cf-75da-4f27-8aec-126bd37035c6")
 	)
 	(junction
-		(at 43.18 109.22)
+		(at 64.77 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "05cf111b-f1cf-4da4-80b1-be9951844034")
+		(uuid "0b9cd073-0ce9-4add-9ce7-dc0c253b2943")
 	)
 	(junction
-		(at 243.84 88.9)
+		(at 194.31 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "068d8c0e-beee-4db0-b220-ff0c02663acf")
+		(uuid "0c4a7052-0ed0-4171-bc19-12c1a6e3f871")
 	)
 	(junction
-		(at 182.88 106.68)
+		(at 43.18 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "083a292f-5b0b-4efb-9a68-ec0ac4817777")
-	)
-	(junction
-		(at 63.5 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a1ed11a-83f2-4a22-bbaa-cbe525f5fba8")
-	)
-	(junction
-		(at 72.39 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a778e8d-fbcd-4393-8669-e2df76475663")
+		(uuid "0c59d046-f641-4877-ae04-152963efdbda")
 	)
 	(junction
 		(at 213.36 88.9)
@@ -428,76 +401,76 @@
 		(uuid "0e127384-1aa1-403b-8730-995ef360c9ba")
 	)
 	(junction
-		(at 104.14 91.44)
+		(at 204.47 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "137f69df-1a6b-4639-91ae-5a1df4d668b7")
+		(uuid "19744f6c-9fa9-4cc3-bdee-f87fa2993d73")
 	)
 	(junction
-		(at 213.36 106.68)
+		(at 105.41 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "15b00411-52fc-4a73-a186-017091388701")
+		(uuid "1b0b4e39-67a7-4224-9e87-3e12646ba96e")
 	)
 	(junction
-		(at 203.2 142.24)
+		(at 73.66 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "15b9dbf2-90d9-44c1-9fe4-183cad311ee4")
+		(uuid "25b41356-8b53-4631-9107-04392ab6a900")
 	)
 	(junction
-		(at 63.5 109.22)
+		(at 95.25 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "16ff8fa7-e2f6-4fb7-aea8-04f04a0e199b")
+		(uuid "2c46b186-9963-49e3-988d-a73c4cf3235b")
 	)
 	(junction
-		(at 213.36 123.19)
+		(at 234.95 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1ce4f2ba-4a51-4106-812d-81072cabcc3b")
+		(uuid "3a6864b9-41e2-4aa1-8764-1414f2f5bda1")
 	)
 	(junction
-		(at 83.82 91.44)
+		(at 105.41 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1ffc5d45-dc4c-4f42-9821-54c47b0a715b")
+		(uuid "3b023504-e49a-4a00-9f99-1c4412873e4a")
 	)
 	(junction
-		(at 83.82 125.73)
+		(at 172.72 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "212cab54-3f5a-4e79-8566-3106df1802d7")
+		(uuid "4067c02a-fc4b-4013-9771-50baf51befb6")
 	)
 	(junction
-		(at 114.3 91.44)
+		(at 194.31 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "29ade6ad-ec27-4115-b343-a31a6234962d")
+		(uuid "415f1e9e-2eb1-4ae1-b656-4f80bd1576cb")
 	)
 	(junction
-		(at 93.98 125.73)
+		(at 184.15 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "34510fed-750a-48af-9115-d04ef5543278")
+		(uuid "47153dd1-9b13-4b56-88da-a2182d54f25a")
 	)
 	(junction
-		(at 193.04 142.24)
+		(at 224.79 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3896ceac-b801-4d30-9711-1fcb756994d9")
+		(uuid "49f724cd-c0b4-4018-85f4-c02e360966b4")
 	)
 	(junction
-		(at 254 88.9)
+		(at 53.34 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3bb655df-6758-46ca-8015-86faa0441296")
+		(uuid "56418d81-e41a-4536-b8a8-5ef6d916c85d")
 	)
 	(junction
-		(at 233.68 106.68)
+		(at 236.22 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "50b08909-7cda-4be6-b6a4-50a9f9152804")
+		(uuid "57cf1f34-783e-4bc5-b399-72dbca8c3d7a")
 	)
 	(junction
 		(at 73.66 91.44)
@@ -506,166 +479,172 @@
 		(uuid "5b8f1b78-1cd1-4400-b22f-1b5728ab1cec")
 	)
 	(junction
-		(at 203.2 88.9)
+		(at 184.15 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "63f3acac-20bd-4bc5-8d41-17497e635e42")
+		(uuid "602d3e86-8ab3-45b1-b0b6-d618c108e3d1")
 	)
 	(junction
-		(at 182.88 142.24)
+		(at 43.18 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6507d097-aa7a-488b-97e4-bcf7ad2c03b3")
+		(uuid "64875013-d26f-4ad8-8356-92e363cc27d1")
 	)
 	(junction
-		(at 203.2 106.68)
+		(at 44.45 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6c7aae1c-2ff2-48fd-8ff2-c09b8fedb2e5")
+		(uuid "670e9273-4074-495a-8a30-174ec0d06174")
 	)
 	(junction
-		(at 62.23 144.78)
+		(at 85.09 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "70afaa77-ed2b-431a-bf28-43db19f909f0")
+		(uuid "6da532c9-2010-45d2-acd7-596ef708421b")
 	)
 	(junction
-		(at 104.14 125.73)
+		(at 85.09 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "777d1a91-033a-4c89-9b81-3139c8da91d5")
+		(uuid "71cb4f49-1af2-4256-92ad-ab4549ef1c5c")
 	)
 	(junction
-		(at 30.48 144.78)
+		(at 172.72 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "78c67e35-31ef-45cc-9d77-118209131776")
+		(uuid "78259bd7-0e21-4ba1-b373-d34b3676b4c7")
 	)
 	(junction
-		(at 93.98 109.22)
+		(at 63.5 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7dbc5383-fd9b-42b9-89d4-139e806a1f58")
+		(uuid "7ad5ad37-5d56-4236-84f1-073790393c1a")
 	)
 	(junction
-		(at 182.88 88.9)
+		(at 204.47 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7e32e8b2-6b7e-4e5a-9bba-980a7a25dc79")
+		(uuid "80406e00-cfff-4b16-bb11-cb6b3b2b2fcf")
 	)
 	(junction
-		(at 31.75 91.44)
+		(at 194.31 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "829fa93a-538e-4398-9896-63de40c80a24")
+		(uuid "82794d58-b35a-4d55-8b33-e86fc83d81ea")
 	)
 	(junction
-		(at 223.52 88.9)
+		(at 73.66 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "849ba0a1-a571-4cd9-994c-fd4f1a6b0453")
+		(uuid "86059ff3-1eb5-4012-bcdc-bebbdbc39df3")
 	)
 	(junction
-		(at 83.82 144.78)
+		(at 214.63 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8784a6f7-28c0-44fc-ac07-a8a522f0e9d5")
+		(uuid "8777dacf-a046-4676-b99b-84483d0080fa")
 	)
 	(junction
-		(at 223.52 106.68)
+		(at 105.41 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8ed7c7c0-53b4-46ce-86de-4ded84b0c315")
+		(uuid "8b95b2f9-14dd-46ed-844d-af92d8fea55c")
 	)
 	(junction
-		(at 171.45 88.9)
+		(at 85.09 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "926dacbb-226b-46be-a197-af9043838e5d")
+		(uuid "8d6310a4-704f-4fb3-bae3-f9e97444b18a")
 	)
 	(junction
-		(at 224.79 123.19)
+		(at 224.79 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "952da32f-ec71-4fa3-b139-69596ed5735b")
+		(uuid "922da331-30ee-4b40-9784-9b7aed6e40d4")
 	)
 	(junction
-		(at 62.23 125.73)
+		(at 214.63 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "96109573-5002-4cd2-9d6e-75573fa609cd")
+		(uuid "999488c2-f558-4f89-a6eb-45c6f723a497")
 	)
 	(junction
-		(at 213.36 142.24)
+		(at 245.11 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "979fc746-261c-431d-a853-bf79f7255a91")
+		(uuid "9a293c2b-dc3c-4776-8a78-f842ddf13af0")
 	)
 	(junction
-		(at 234.95 142.24)
+		(at 214.63 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a20bc6c7-0f93-4f20-86d8-1454ddd9b1e2")
+		(uuid "9b3fe5f1-7d4c-45ad-b856-b1875d0bf5b7")
 	)
 	(junction
-		(at 52.07 144.78)
+		(at 236.22 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a26ff555-48c3-4dc6-9b82-b3ff80851fdd")
+		(uuid "a52096d2-5208-469f-b1c9-0424b0f180d5")
 	)
 	(junction
-		(at 224.79 142.24)
+		(at 194.31 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a531ae90-8d30-441e-83d3-43e5ec84b9de")
+		(uuid "aa0ae344-e391-47af-aebf-5d72c28e3b8e")
 	)
 	(junction
-		(at 53.34 109.22)
+		(at 95.25 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a59b3554-dcc0-4cd4-a435-bbf3aa3be0b6")
+		(uuid "ab68cf10-95d9-41b1-b3e7-93e3bbbd5273")
 	)
 	(junction
-		(at 193.04 106.68)
+		(at 172.72 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a61741e1-2937-4b9d-8d88-2e653020f7e1")
+		(uuid "ae7c4a41-0016-4ac8-974a-ab92f55c1858")
 	)
 	(junction
-		(at 73.66 109.22)
+		(at 245.11 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aa8f941b-8a9b-4076-bc0e-32cadf397538")
+		(uuid "af90f0dc-766f-4d42-a277-a60c45a74be1")
 	)
 	(junction
-		(at 203.2 123.19)
+		(at 64.77 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aabba79a-613b-4097-86ba-7aa525a65b68")
+		(uuid "b1c2d348-7b23-4de2-b238-14b2597c0185")
 	)
 	(junction
-		(at 171.45 142.24)
+		(at 53.34 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ae13c9ce-fa27-4f73-8783-deda7915c5bb")
+		(uuid "b5a32db3-34d7-47e9-ab81-7474464a88f2")
 	)
 	(junction
-		(at 43.18 91.44)
+		(at 74.93 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b0660bb9-7632-48d7-901d-9773ba5ceb36")
+		(uuid "b68b44c4-f82c-4252-8ab5-33417b0e88f0")
 	)
 	(junction
-		(at 104.14 109.22)
+		(at 63.5 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b116f10e-ce11-41d7-9264-db30a3179f48")
+		(uuid "b9d83161-442e-44c5-9eb5-6916344e6938")
 	)
 	(junction
-		(at 171.45 123.19)
+		(at 44.45 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "be759e45-0902-49a9-9404-69002c3adca4")
+		(uuid "bb9b625a-6c6a-46dd-9763-72e4c105bfd6")
+	)
+	(junction
+		(at 74.93 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "beb51f05-fbba-44ed-9881-7e38c506eb14")
 	)
 	(junction
 		(at 68.58 109.22)
@@ -674,10 +653,22 @@
 		(uuid "c0c1467f-477a-46a7-9907-5c322dd9a2e2")
 	)
 	(junction
-		(at 243.84 106.68)
+		(at 234.95 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c3ed127f-ed77-4031-83dc-72494bb11bbf")
+		(uuid "c0e227a8-29b8-466c-8ac7-112c6fe6f1cc")
+	)
+	(junction
+		(at 54.61 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c17c3f00-9707-4561-8581-f8ce994b5133")
+	)
+	(junction
+		(at 184.15 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2392111-f5ad-4876-811a-f3e02b0e63f5")
 	)
 	(junction
 		(at 207.01 142.24)
@@ -686,22 +677,40 @@
 		(uuid "c5f2391f-9bd5-4228-b121-5d3f16abc975")
 	)
 	(junction
-		(at 233.68 88.9)
+		(at 255.27 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c82bc166-3540-477e-b0d4-7c5b4dcdad05")
+		(uuid "c8839589-e10a-4e91-addd-9d17331c7bf1")
 	)
 	(junction
-		(at 41.91 125.73)
+		(at 246.38 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c94ff545-b942-4dd0-9b8b-f42f8e6aa578")
+		(uuid "c88cba7e-208c-46c6-bf7f-4b1509981ae4")
 	)
 	(junction
-		(at 182.88 123.19)
+		(at 172.72 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cbc145a9-2af4-4cef-8479-06001b16659c")
+		(uuid "ca06c8e3-49ec-468e-9e7c-666f6ddc806d")
+	)
+	(junction
+		(at 33.02 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbfdfdd9-a287-4707-9c6b-07418dd3e5c1")
+	)
+	(junction
+		(at 33.02 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc9bdf9f-77bc-40cf-a11e-1eacffe86f20")
+	)
+	(junction
+		(at 115.57 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdbbe97e-7b04-4ddc-a8ca-2765645e81d0")
 	)
 	(junction
 		(at 66.04 144.78)
@@ -710,90 +719,78 @@
 		(uuid "ce4d2bfc-c2b1-4f4b-b0b1-10da3e44cbbe")
 	)
 	(junction
-		(at 31.75 109.22)
+		(at 95.25 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cf14fa79-de8b-4cd2-85d4-2b61870bd3f7")
+		(uuid "d1b2d30d-27aa-45f6-89d2-543da758888b")
 	)
 	(junction
-		(at 30.48 125.73)
+		(at 95.25 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d477d311-893f-4009-8fd3-7e06dfdf74ad")
+		(uuid "dd03830c-9c4e-4521-b2d3-6805fa828f89")
 	)
 	(junction
-		(at 72.39 125.73)
+		(at 31.75 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "db25820d-838b-490d-a780-44c61fc443c8")
+		(uuid "e3ada402-8f8d-4342-bfc6-b38e804bec34")
 	)
 	(junction
-		(at 41.91 144.78)
+		(at 31.75 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e659c2af-ae74-4d24-9813-6f4f993966d6")
+		(uuid "ec903943-0ef0-46b0-8c04-aefaa286fdbf")
 	)
 	(junction
-		(at 93.98 144.78)
+		(at 226.06 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e877383a-b267-44ac-aca6-a6c354bce0ae")
+		(uuid "ed26ffea-c5d6-4aa5-921f-718ce624254c")
 	)
 	(junction
-		(at 245.11 123.19)
+		(at 54.61 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "edb57f46-75eb-4a1e-9cc5-952b184b3f60")
+		(uuid "f075ae62-3438-4ca7-81a0-92e77a9a0626")
 	)
 	(junction
-		(at 53.34 91.44)
+		(at 85.09 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f4753f93-903f-4134-abac-5a24682ef71e")
+		(uuid "f7076e39-b1af-414e-8cb0-c75a6d45a47d")
 	)
 	(junction
-		(at 83.82 109.22)
+		(at 214.63 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f5821a96-289c-4295-8222-6b689e6c6f1b")
+		(uuid "f713aaaa-87c6-443c-800b-737b06423d06")
 	)
 	(junction
-		(at 52.07 125.73)
+		(at 226.06 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f984963f-89a3-4a2f-9c9a-4887400c9ed0")
+		(uuid "f8f4fe27-06ac-42ce-9977-1fb24a6a3e8e")
 	)
 	(junction
-		(at 171.45 106.68)
+		(at 184.15 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f9fe6480-1efc-4786-a2ef-bd5837fcce1c")
-	)
-	(junction
-		(at 93.98 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fbe2c8dd-ef16-44ef-b389-382e6dce29b1")
-	)
-	(junction
-		(at 193.04 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffbaa97c-035a-4926-a57b-81b27584c66e")
+		(uuid "fc0655a9-825d-455f-a605-99323081997a")
 	)
 	(wire
 		(pts
-			(xy 203.2 135.89) (xy 203.2 142.24)
+			(xy 73.66 125.73) (xy 73.66 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06b7108b-3b62-47e6-8b8f-08b4d9dfc5c8")
+		(uuid "01f98d3a-5759-4dd7-bf7b-dabdc63e7aa8")
 	)
 	(wire
 		(pts
-			(xy 66.04 144.78) (xy 72.39 144.78)
+			(xy 66.04 144.78) (xy 73.66 144.78)
 		)
 		(stroke
 			(width 0)
@@ -803,7 +800,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 106.68) (xy 243.84 106.68)
+			(xy 245.11 106.68) (xy 255.27 106.68)
 		)
 		(stroke
 			(width 0)
@@ -813,7 +810,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 125.73) (xy 104.14 125.73)
+			(xy 125.73 125.73) (xy 105.41 125.73)
 		)
 		(stroke
 			(width 0)
@@ -823,37 +820,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 125.73) (xy 93.98 130.81)
+			(xy 64.77 91.44) (xy 73.66 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "088934ad-820e-46d5-aec0-0f1c34d3ee99")
+		(uuid "0d7e580b-1e73-4313-8dab-99c859cb3215")
 	)
 	(wire
 		(pts
-			(xy 30.48 125.73) (xy 30.48 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ab424de-50d5-413d-9046-e82b7cf3ea49")
-	)
-	(wire
-		(pts
-			(xy 233.68 88.9) (xy 233.68 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c00b8a7-10d6-41b5-8cdb-3301b5108cec")
-	)
-	(wire
-		(pts
-			(xy 93.98 109.22) (xy 83.82 109.22)
+			(xy 85.09 109.22) (xy 95.25 109.22)
 		)
 		(stroke
 			(width 0)
@@ -863,13 +840,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 91.44) (xy 73.66 95.25)
+			(xy 194.31 106.68) (xy 204.47 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ea26964-a5ca-4ab3-b52a-a3f41cd78979")
+		(uuid "0e8b09f0-59b4-42fe-9aba-35603c3fdd40")
 	)
 	(polyline
 		(pts
@@ -883,7 +860,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 91.44) (xy 104.14 91.44)
+			(xy 105.41 91.44) (xy 115.57 91.44)
 		)
 		(stroke
 			(width 0)
@@ -893,43 +870,43 @@
 	)
 	(wire
 		(pts
-			(xy 254 88.9) (xy 266.7 88.9)
+			(xy 95.25 104.14) (xy 95.25 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11a0b9ec-0d5f-40f3-908f-3c52cad15cf7")
+		(uuid "110ba594-3333-4c93-8fea-313c6b308201")
 	)
 	(wire
 		(pts
-			(xy 31.75 102.87) (xy 31.75 109.22)
+			(xy 105.41 104.14) (xy 105.41 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12d75f78-c872-402e-909b-42cd0b48e80c")
+		(uuid "12721869-95d9-4cce-a169-4488a182c07e")
 	)
 	(wire
 		(pts
-			(xy 93.98 102.87) (xy 93.98 109.22)
+			(xy 236.22 137.16) (xy 236.22 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12df4866-745b-4e48-8228-bed5b225889c")
+		(uuid "13f46832-2a74-4201-a8c4-d14d0e5ef438")
 	)
 	(wire
 		(pts
-			(xy 171.45 135.89) (xy 171.45 142.24)
+			(xy 236.22 123.19) (xy 246.38 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14a44343-8597-4309-96bd-aae1a99cf676")
+		(uuid "1836bbc0-8921-4755-93b4-69051db04963")
 	)
 	(wire
 		(pts
@@ -943,17 +920,17 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 88.9) (xy 243.84 92.71)
+			(xy 43.18 125.73) (xy 43.18 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19e6c784-26a6-4b76-9fb7-6d7268d1a6ef")
+		(uuid "19bbd886-1346-4295-8566-cce40d3ee290")
 	)
 	(wire
 		(pts
-			(xy 43.18 91.44) (xy 53.34 91.44)
+			(xy 33.02 91.44) (xy 44.45 91.44)
 		)
 		(stroke
 			(width 0)
@@ -963,57 +940,47 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 135.89) (xy 182.88 142.24)
+			(xy 85.09 139.7) (xy 85.09 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d0abb6f-1066-46b8-84e9-eb476cfdf478")
+		(uuid "1c90af85-731b-4c02-a071-adcab294712e")
 	)
 	(wire
 		(pts
-			(xy 223.52 88.9) (xy 233.68 88.9)
+			(xy 255.27 88.9) (xy 255.27 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e20c6b8-9ed0-4f09-9fb4-d203736867cf")
+		(uuid "1e6b2c97-6cad-4280-9cdc-d0a3e83991fe")
 	)
 	(wire
 		(pts
-			(xy 161.29 135.89) (xy 161.29 142.24)
+			(xy 64.77 109.22) (xy 68.58 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2019fb2e-0fb0-420d-bddb-8a59ecf87a4a")
+		(uuid "1f9a6e48-dc31-4a16-8fad-44e5746c0a4b")
 	)
 	(wire
 		(pts
-			(xy 63.5 102.87) (xy 63.5 109.22)
+			(xy 53.34 139.7) (xy 53.34 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20585a23-8843-4993-8907-e5a22674e90d")
+		(uuid "2075e461-e8ab-49d2-82e2-f80b6aede9c3")
 	)
 	(wire
 		(pts
-			(xy 41.91 125.73) (xy 41.91 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21033ed4-212c-4524-83fa-cc598a0f96c2")
-	)
-	(wire
-		(pts
-			(xy 52.07 144.78) (xy 62.23 144.78)
+			(xy 43.18 144.78) (xy 53.34 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1023,17 +990,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 91.44) (xy 53.34 95.25)
+			(xy 31.75 139.7) (xy 31.75 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "21c94613-29ea-4547-a91b-ca0c39af6937")
+		(uuid "222a570a-caf8-4485-8d34-ef5dd34da795")
 	)
 	(wire
 		(pts
-			(xy 72.39 125.73) (xy 83.82 125.73)
+			(xy 63.5 125.73) (xy 73.66 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1043,17 +1010,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 88.9) (xy 243.84 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2396e917-1db8-4dfe-869d-e496e9967714")
-	)
-	(wire
-		(pts
-			(xy 62.23 125.73) (xy 72.39 125.73)
+			(xy 53.34 125.73) (xy 63.5 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1063,47 +1020,37 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 91.44) (xy 104.14 95.25)
+			(xy 236.22 123.19) (xy 236.22 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28a01781-56df-4710-9a99-3ff3b1a67743")
+		(uuid "2515983c-885e-47b9-af6c-3fab9ee8e85c")
 	)
 	(wire
 		(pts
-			(xy 213.36 123.19) (xy 213.36 128.27)
+			(xy 85.09 91.44) (xy 85.09 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ba72e97-b947-4a9d-b123-dc755eaf20cf")
+		(uuid "32285c06-4783-415f-a283-c2838e8b958c")
 	)
 	(wire
 		(pts
-			(xy 193.04 100.33) (xy 193.04 106.68)
+			(xy 184.15 137.16) (xy 184.15 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30895f4b-1222-497e-ac46-849cc8c5c3d1")
+		(uuid "334286b7-2195-4488-91d3-6153977d5d8a")
 	)
 	(wire
 		(pts
-			(xy 30.48 138.43) (xy 30.48 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35314110-1902-4ad5-8092-464e898969b0")
-	)
-	(wire
-		(pts
-			(xy 224.79 142.24) (xy 234.95 142.24)
+			(xy 214.63 142.24) (xy 226.06 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1113,27 +1060,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 125.73) (xy 83.82 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35f35eac-68d7-423f-bfee-74ee395bec3d")
-	)
-	(wire
-		(pts
-			(xy 52.07 125.73) (xy 52.07 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "369534ec-507a-4753-aa37-1b5522e6ad2d")
-	)
-	(wire
-		(pts
-			(xy 266.7 123.19) (xy 245.11 123.19)
+			(xy 266.7 123.19) (xy 246.38 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1143,27 +1070,27 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 102.87) (xy 43.18 109.22)
+			(xy 44.45 91.44) (xy 44.45 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38d82683-d877-41c6-aef9-7be2f92e4555")
+		(uuid "38663b08-cf9c-4e26-9944-4740b753f8b2")
 	)
 	(wire
 		(pts
-			(xy 203.2 100.33) (xy 203.2 106.68)
+			(xy 194.31 123.19) (xy 194.31 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38e19f4e-e3ae-4ecf-bbcd-489823aa2c82")
+		(uuid "39d673e2-1272-47ae-b9d7-90c1dad877d5")
 	)
 	(wire
 		(pts
-			(xy 203.2 123.19) (xy 213.36 123.19)
+			(xy 194.31 123.19) (xy 204.47 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1173,27 +1100,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 144.78) (xy 30.48 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3af16a23-d903-4d73-b113-9e724a23412c")
-	)
-	(wire
-		(pts
-			(xy 182.88 88.9) (xy 193.04 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c1055ea-84c7-4517-97bd-e1444f7d0086")
-	)
-	(wire
-		(pts
-			(xy 63.5 91.44) (xy 73.66 91.44)
+			(xy 54.61 91.44) (xy 64.77 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1203,67 +1110,57 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 91.44) (xy 63.5 95.25)
+			(xy 184.15 106.68) (xy 194.31 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3da788ae-9d37-4158-99fc-a0637d16eee9")
+		(uuid "3c90b218-c338-45ad-9ca3-b55daa748548")
 	)
 	(wire
 		(pts
-			(xy 104.14 102.87) (xy 104.14 109.22)
+			(xy 204.47 123.19) (xy 214.63 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40e8b947-066c-44ca-83ce-1fb1c85c55a2")
+		(uuid "3fc6b628-0a79-44fd-99a0-adf1532023ff")
 	)
 	(wire
 		(pts
-			(xy 53.34 102.87) (xy 53.34 109.22)
+			(xy 224.79 101.6) (xy 224.79 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44432a32-48a0-4a76-b5cf-60f634812282")
+		(uuid "3ff88270-8f80-4ca7-aab1-f6892649acfe")
 	)
 	(wire
 		(pts
-			(xy 161.29 100.33) (xy 161.29 106.68)
+			(xy 204.47 123.19) (xy 204.47 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44499c52-9839-42b9-857a-09f824a2edac")
+		(uuid "41544d69-aa68-422a-83df-6be8c1fb8a2a")
 	)
 	(wire
 		(pts
-			(xy 224.79 123.19) (xy 224.79 128.27)
+			(xy 172.72 142.24) (xy 184.15 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "458c6c05-13dd-4004-9d7c-4fe0bfb1ad3c")
+		(uuid "44fcc3c5-a841-4a28-90c7-151298633201")
 	)
 	(wire
 		(pts
-			(xy 62.23 138.43) (xy 62.23 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46c97dbc-62cd-4d3f-9533-9d1291abcb29")
-	)
-	(wire
-		(pts
-			(xy 193.04 123.19) (xy 203.2 123.19)
+			(xy 184.15 123.19) (xy 194.31 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1273,7 +1170,17 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 142.24) (xy 245.11 142.24)
+			(xy 184.15 123.19) (xy 184.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "484b5643-70f1-475e-a2ef-f98f42a757d8")
+	)
+	(wire
+		(pts
+			(xy 226.06 142.24) (xy 236.22 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1283,27 +1190,27 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 100.33) (xy 233.68 106.68)
+			(xy 172.72 127) (xy 172.72 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a5076fd-d1dc-4e9f-a4a3-4162a5362725")
+		(uuid "49a5b90e-bc2d-4a11-931e-70bc5a3142d2")
 	)
 	(wire
 		(pts
-			(xy 234.95 135.89) (xy 234.95 142.24)
+			(xy 162.56 88.9) (xy 162.56 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a843e06-8dab-418a-b949-2a520bd17554")
+		(uuid "4a5c5f20-cdeb-40c1-976e-329a05adcfbd")
 	)
 	(wire
 		(pts
-			(xy 171.45 142.24) (xy 182.88 142.24)
+			(xy 162.56 142.24) (xy 172.72 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1313,17 +1220,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 88.9) (xy 213.36 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "502cd47d-c26b-4be8-a316-637edfedb0fd")
-	)
-	(wire
-		(pts
-			(xy 83.82 91.44) (xy 93.98 91.44)
+			(xy 74.93 91.44) (xy 85.09 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1333,47 +1230,57 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 109.22) (xy 68.58 109.22)
+			(xy 214.63 123.19) (xy 214.63 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "537a9516-76a2-49ed-82a9-5ed770011dbf")
+		(uuid "531febe7-fef8-4184-bf17-715af287b985")
 	)
 	(wire
 		(pts
-			(xy 161.29 142.24) (xy 171.45 142.24)
+			(xy 245.11 88.9) (xy 255.27 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "540de11d-e6ae-4633-bed6-72a8e107d072")
+		(uuid "53d45d82-bc43-4c28-aabd-64a1e249fe33")
 	)
 	(wire
 		(pts
-			(xy 161.29 106.68) (xy 171.45 106.68)
+			(xy 73.66 139.7) (xy 73.66 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "541b498f-6352-40cb-99dc-6bb43a4a22f3")
+		(uuid "54db2ea9-a51e-492c-8caa-b33a1a26bbe7")
 	)
 	(wire
 		(pts
-			(xy 161.29 123.19) (xy 171.45 123.19)
+			(xy 234.95 88.9) (xy 245.11 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5456af40-21d8-4934-b6d2-92971e8c16aa")
+		(uuid "5656e80d-f758-4160-b79d-2db5aa33858b")
 	)
 	(wire
 		(pts
-			(xy 43.18 109.22) (xy 53.34 109.22)
+			(xy 95.25 125.73) (xy 95.25 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5770bc99-2fe0-4689-b9ec-5e9230e6ccc6")
+	)
+	(wire
+		(pts
+			(xy 33.02 109.22) (xy 44.45 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1383,37 +1290,37 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 144.78) (xy 83.82 144.78)
+			(xy 214.63 123.19) (xy 226.06 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57e156bc-9db8-4865-b86b-f1fe270ed0bb")
+		(uuid "58a543a8-8519-4ab9-80af-257696b80261")
 	)
 	(wire
 		(pts
-			(xy 193.04 106.68) (xy 203.2 106.68)
+			(xy 95.25 91.44) (xy 95.25 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "582b6a6f-23b5-42a2-b7d8-b831cbff6142")
+		(uuid "5941d2c7-324c-4b22-8e54-57349be037b1")
 	)
 	(wire
 		(pts
-			(xy 213.36 106.68) (xy 223.52 106.68)
+			(xy 53.34 125.73) (xy 53.34 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a468389-c6db-4250-a9fd-231a9b60a7d8")
+		(uuid "59f428ee-5288-4d4d-92ec-3ea6f80d1cab")
 	)
 	(wire
 		(pts
-			(xy 30.48 144.78) (xy 41.91 144.78)
+			(xy 21.59 144.78) (xy 31.75 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1423,13 +1330,63 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 102.87) (xy 21.59 109.22)
+			(xy 63.5 125.73) (xy 63.5 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d80d85b-93dd-413a-8554-6ccb0d0c9825")
+		(uuid "5b4d3edb-485b-4e29-bd62-a4b8cbdd4627")
+	)
+	(wire
+		(pts
+			(xy 33.02 91.44) (xy 33.02 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bb5b4ed-cdd9-4db5-b9e8-a14b0e5ba821")
+	)
+	(wire
+		(pts
+			(xy 85.09 104.14) (xy 85.09 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2c02cc-7cdf-4ac5-8ae4-725c8ee04b9b")
+	)
+	(wire
+		(pts
+			(xy 54.61 109.22) (xy 64.77 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c3e2001-bcb5-40c9-9120-87a7d30f166c")
+	)
+	(wire
+		(pts
+			(xy 204.47 88.9) (xy 204.47 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c4bca24-235a-430b-92cf-3c89695b95ea")
+	)
+	(wire
+		(pts
+			(xy 162.56 137.16) (xy 162.56 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce23d17-5ddc-4b71-a495-5f7310c91f2b")
 	)
 	(wire
 		(pts
@@ -1443,47 +1400,37 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 125.73) (xy 104.14 130.81)
+			(xy 105.41 91.44) (xy 105.41 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5fa61619-286a-4ff7-a7ad-8f8a5ff35b61")
+		(uuid "60f12ebb-2839-466a-992d-ad4174398713")
 	)
 	(wire
 		(pts
-			(xy 72.39 125.73) (xy 72.39 130.81)
+			(xy 204.47 88.9) (xy 213.36 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5fb2b2a1-e9da-4956-9948-6a550c17ed11")
+		(uuid "62a543a6-985a-459b-b3ed-3c7372f497f2")
 	)
 	(wire
 		(pts
-			(xy 182.88 88.9) (xy 182.88 92.71)
+			(xy 224.79 88.9) (xy 234.95 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "62f063ca-e417-4d35-90a2-842e34fc94a7")
+		(uuid "62b5ad2e-762f-467e-941b-8918115be59c")
 	)
 	(wire
 		(pts
-			(xy 62.23 125.73) (xy 62.23 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6438c7cb-1540-48be-8d29-8ce401906439")
-	)
-	(wire
-		(pts
-			(xy 93.98 144.78) (xy 104.14 144.78)
+			(xy 85.09 144.78) (xy 95.25 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1493,37 +1440,37 @@
 	)
 	(wire
 		(pts
-			(xy 254 100.33) (xy 254 106.68)
+			(xy 245.11 88.9) (xy 245.11 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66279db1-7b93-49a2-8488-a84e37660d9f")
+		(uuid "6527e3de-325e-4646-986a-e054aaa0025b")
 	)
 	(wire
 		(pts
-			(xy 93.98 91.44) (xy 104.14 91.44)
+			(xy 115.57 104.14) (xy 115.57 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b96972d-1fdd-4f99-89fd-e2db42abf9f7")
+		(uuid "65e27d97-1ab4-470c-987b-52c7a3b52c38")
 	)
 	(wire
 		(pts
-			(xy 43.18 91.44) (xy 43.18 95.25)
+			(xy 204.47 101.6) (xy 204.47 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6cd76977-9847-4288-9a5f-a3db5fa3b107")
+		(uuid "67664c1a-67f5-4a85-9cce-a82eff62870f")
 	)
 	(wire
 		(pts
-			(xy 207.01 142.24) (xy 213.36 142.24)
+			(xy 207.01 142.24) (xy 214.63 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1533,17 +1480,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 91.44) (xy 93.98 95.25)
+			(xy 194.31 101.6) (xy 194.31 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f88ba42-46d5-4459-8a3c-840d5dceab8c")
+		(uuid "71098830-e9f6-4a71-8a35-84fae88de216")
 	)
 	(wire
 		(pts
-			(xy 53.34 109.22) (xy 63.5 109.22)
+			(xy 44.45 109.22) (xy 54.61 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1563,7 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 91.44) (xy 63.5 91.44)
+			(xy 44.45 91.44) (xy 54.61 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1573,53 +1520,63 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 123.19) (xy 245.11 128.27)
+			(xy 246.38 137.16) (xy 246.38 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "726e5974-1dc2-4040-9e62-5f426bd7725b")
+		(uuid "76febd72-3446-4b35-a328-e49397c1bf9e")
 	)
 	(wire
 		(pts
-			(xy 171.45 88.9) (xy 171.45 92.71)
+			(xy 162.56 123.19) (xy 172.72 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73b6e27d-31ca-4d8d-82b3-13263357ff13")
+		(uuid "7738fd39-50c8-4b40-97d3-15ce221ef50b")
 	)
 	(wire
 		(pts
-			(xy 224.79 123.19) (xy 234.95 123.19)
+			(xy 54.61 104.14) (xy 54.61 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "772eeb96-c5f3-486f-82be-f0421dd4f892")
+		(uuid "7768806a-fe68-45a7-a4a8-8926896f0dbc")
 	)
 	(wire
 		(pts
-			(xy 20.32 125.73) (xy 30.48 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "773f487b-e5d7-44aa-b0fe-ece1a288d98b")
-	)
-	(wire
-		(pts
-			(xy 233.68 106.68) (xy 223.52 106.68)
+			(xy 224.79 106.68) (xy 234.95 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "777953a0-9810-4797-8db6-ce826bca8cb5")
+	)
+	(wire
+		(pts
+			(xy 162.56 123.19) (xy 162.56 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79f6e349-fd56-4029-8b64-d6aeda44258f")
+	)
+	(wire
+		(pts
+			(xy 95.25 91.44) (xy 105.41 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a12fa69-7de1-415d-99f0-61f42a98c4bb")
 	)
 	(wire
 		(pts
@@ -1633,37 +1590,67 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 144.78) (xy 104.14 138.43)
+			(xy 172.72 88.9) (xy 184.15 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7dfe480f-8075-47af-9b9a-10c3f85648f8")
+		(uuid "7b948b18-fd48-471b-aef5-efdfd212ebf0")
 	)
 	(wire
 		(pts
-			(xy 52.07 138.43) (xy 52.07 144.78)
+			(xy 85.09 91.44) (xy 95.25 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80612539-134d-4bd7-b9e8-d80ed0db7eea")
+		(uuid "7cab8ef4-88fc-4842-acc0-9357e8952794")
 	)
 	(wire
 		(pts
-			(xy 254 92.71) (xy 254 88.9)
+			(xy 245.11 101.6) (xy 245.11 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81599d05-749c-4ccc-940d-eb5e2d5a493f")
+		(uuid "7f0a72c8-613c-4a56-a1a0-908a25cf6669")
 	)
 	(wire
 		(pts
-			(xy 73.66 91.44) (xy 83.82 91.44)
+			(xy 105.41 139.7) (xy 105.41 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1dc162-8755-4162-a267-377b003965a2")
+	)
+	(wire
+		(pts
+			(xy 162.56 101.6) (xy 162.56 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81047b8a-17cd-47ce-9c72-a55c96d612ba")
+	)
+	(wire
+		(pts
+			(xy 214.63 101.6) (xy 214.63 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81464a22-40a3-4324-82de-cc882750a0ea")
+	)
+	(wire
+		(pts
+			(xy 73.66 91.44) (xy 74.93 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1673,7 +1660,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 88.9) (xy 223.52 88.9)
+			(xy 213.36 88.9) (xy 214.63 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1683,13 +1670,53 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 109.22) (xy 83.82 109.22)
+			(xy 204.47 106.68) (xy 214.63 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8377efc3-e597-47f6-b506-d5e9638eef86")
+		(uuid "8362f441-6488-475f-8459-ed69af963954")
+	)
+	(wire
+		(pts
+			(xy 21.59 125.73) (xy 21.59 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a29b04-a322-4cf3-a1b3-b87a0dfc4521")
+	)
+	(wire
+		(pts
+			(xy 53.34 144.78) (xy 63.5 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857e4088-2dda-486d-a8a4-40443004eab5")
+	)
+	(wire
+		(pts
+			(xy 73.66 144.78) (xy 85.09 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f3b731-5453-44aa-9c8c-fe88d4c5eeb2")
+	)
+	(wire
+		(pts
+			(xy 54.61 91.44) (xy 54.61 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86273d7d-2792-49ec-a104-bf3a3f2298e9")
 	)
 	(wire
 		(pts
@@ -1703,7 +1730,27 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 123.19) (xy 245.11 123.19)
+			(xy 74.93 109.22) (xy 85.09 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "868b0843-3a78-49c5-b45f-fc0d2986efda")
+	)
+	(wire
+		(pts
+			(xy 95.25 125.73) (xy 105.41 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "876866fd-49bc-4faf-b93b-4b95a2bd169e")
+	)
+	(wire
+		(pts
+			(xy 226.06 123.19) (xy 236.22 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1713,7 +1760,47 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 123.19) (xy 193.04 123.19)
+			(xy 73.66 125.73) (xy 85.09 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c340d4-2e70-464d-ad18-6c559d1560ef")
+	)
+	(wire
+		(pts
+			(xy 236.22 142.24) (xy 246.38 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891d6d90-c513-40a2-a71e-810d134e4275")
+	)
+	(wire
+		(pts
+			(xy 172.72 88.9) (xy 172.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b291ca-40e6-48ba-a0a5-6b9a9f92f0d1")
+	)
+	(wire
+		(pts
+			(xy 43.18 139.7) (xy 43.18 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b3f410-8b1a-43f8-988d-aaf08eda030f")
+	)
+	(wire
+		(pts
+			(xy 172.72 123.19) (xy 184.15 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1723,47 +1810,57 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 142.24) (xy 245.11 135.89)
+			(xy 255.27 88.9) (xy 266.7 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e704d78-40de-4d40-aa95-41bd6a38101e")
+		(uuid "8ccec362-4e11-4843-8054-a338b4eb8b2e")
 	)
 	(wire
 		(pts
-			(xy 182.88 123.19) (xy 182.88 128.27)
+			(xy 115.57 91.44) (xy 125.73 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91d54bda-ec90-4685-b3c4-77dd64d077c6")
+		(uuid "9352efb9-99d0-437a-baef-e4d87c3f929c")
 	)
 	(wire
 		(pts
-			(xy 31.75 91.44) (xy 31.75 95.25)
+			(xy 21.59 139.7) (xy 21.59 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9217b2f7-3a03-4e9a-8d03-dbeee5969e57")
+		(uuid "964d7b07-a6a5-4d30-b89c-aba1e117f7cd")
 	)
 	(wire
 		(pts
-			(xy 83.82 138.43) (xy 83.82 144.78)
+			(xy 105.41 125.73) (xy 105.41 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "964a7cb4-669a-4a18-aec1-7a7aca505cce")
+		(uuid "978013e4-5fe0-45f5-87d7-19a068cddece")
 	)
 	(wire
 		(pts
-			(xy 52.07 125.73) (xy 62.23 125.73)
+			(xy 204.47 142.24) (xy 207.01 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b77c92-a1f1-4d1e-96ac-c283e2deccfd")
+	)
+	(wire
+		(pts
+			(xy 43.18 125.73) (xy 53.34 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1773,7 +1870,17 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 106.68) (xy 233.68 106.68)
+			(xy 105.41 109.22) (xy 115.57 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "997ee233-5903-41d9-8032-c95dafea9ee5")
+	)
+	(wire
+		(pts
+			(xy 234.95 106.68) (xy 245.11 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1793,43 +1900,23 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 144.78) (xy 93.98 144.78)
+			(xy 74.93 104.14) (xy 74.93 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c643bf3-7c54-4733-8c79-882256fccefc")
+		(uuid "9c5291ec-83c2-4999-a9fc-fe54d20ebfb4")
 	)
 	(wire
 		(pts
-			(xy 31.75 109.22) (xy 43.18 109.22)
+			(xy 226.06 123.19) (xy 226.06 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ce766b6-1d86-4bc5-8f8c-d1a80c62c73e")
-	)
-	(wire
-		(pts
-			(xy 213.36 135.89) (xy 213.36 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d407b84-59b6-40c8-950f-54337a719195")
-	)
-	(wire
-		(pts
-			(xy 114.3 109.22) (xy 104.14 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d4dc8e3-327d-4410-aeaa-d1a7b26df640")
+		(uuid "9d1ad1e0-44f1-417f-b5d2-054bc0ae106b")
 	)
 	(wire
 		(pts
@@ -1843,6 +1930,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 104.14) (xy 22.86 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc98d85-b699-4120-b6c0-095b733ecbad")
+	)
+	(wire
+		(pts
 			(xy 66.04 148.59) (xy 66.04 144.78)
 		)
 		(stroke
@@ -1850,26 +1947,6 @@
 			(type default)
 		)
 		(uuid "9deeca7b-c49b-419e-a673-6f5afc88d9a3")
-	)
-	(wire
-		(pts
-			(xy 234.95 123.19) (xy 234.95 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ec82c06-e198-4484-ac47-43b5fa7a020d")
-	)
-	(wire
-		(pts
-			(xy 161.29 88.9) (xy 161.29 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0e2c33f-abc9-4097-9005-129748103402")
 	)
 	(wire
 		(pts
@@ -1883,7 +1960,17 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 88.9) (xy 161.29 88.9)
+			(xy 95.25 144.78) (xy 105.41 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a244cca1-2dbb-4c75-802d-585e4ef43e2e")
+	)
+	(wire
+		(pts
+			(xy 162.56 88.9) (xy 172.72 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1893,17 +1980,17 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 135.89) (xy 193.04 142.24)
+			(xy 214.63 137.16) (xy 214.63 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a568dcf3-32c5-42ca-8bfb-4c882d4079f5")
+		(uuid "a60318ee-964b-40a3-92b2-8870af2550a8")
 	)
 	(wire
 		(pts
-			(xy 193.04 142.24) (xy 203.2 142.24)
+			(xy 184.15 142.24) (xy 194.31 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1913,183 +2000,83 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 123.19) (xy 224.79 123.19)
+			(xy 194.31 142.24) (xy 204.47 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7ceb2a5-631e-4d9c-9057-1410df14e2fd")
+		(uuid "a9924a9b-105e-4dec-8f24-3a2554da6eae")
 	)
 	(wire
 		(pts
-			(xy 171.45 123.19) (xy 182.88 123.19)
+			(xy 63.5 139.7) (xy 63.5 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8482664-9d3b-4d9f-bc4e-82582a3062dd")
+		(uuid "ac929cc3-11b3-42ef-8f69-cf167413e577")
 	)
 	(wire
 		(pts
-			(xy 20.32 138.43) (xy 20.32 144.78)
+			(xy 234.95 88.9) (xy 234.95 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aaf0e693-f5e3-49ed-a790-ceed743339d6")
+		(uuid "ada1b110-6212-4dea-ba64-df5bc2dd9289")
 	)
 	(wire
 		(pts
-			(xy 254 88.9) (xy 243.84 88.9)
+			(xy 22.86 109.22) (xy 33.02 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abcad7da-a4b7-44bf-a140-704be6573666")
+		(uuid "af6d5872-53b1-4b27-8281-06f9e9063b6c")
 	)
 	(wire
 		(pts
-			(xy 203.2 88.9) (xy 203.2 92.71)
+			(xy 184.15 88.9) (xy 184.15 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac69b1a6-5af1-40ad-863b-c37b29ae11dc")
+		(uuid "b2c9a0b3-9545-4dcc-8a61-8bc80e3e96d4")
 	)
 	(wire
 		(pts
-			(xy 161.29 128.27) (xy 161.29 123.19)
+			(xy 194.31 88.9) (xy 194.31 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad26b835-9220-4588-8dff-e90f82974750")
+		(uuid "ba6cbef9-f31f-4470-a9b5-d657e7749cf1")
 	)
 	(wire
 		(pts
-			(xy 72.39 138.43) (xy 72.39 144.78)
+			(xy 172.72 101.6) (xy 172.72 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad6e250d-3760-4143-a89d-8d751dba0c22")
+		(uuid "bab96d4f-831e-452a-aa36-51a6f7be1fc5")
 	)
 	(wire
 		(pts
-			(xy 182.88 100.33) (xy 182.88 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b021a350-44ab-41f8-a197-72857498f907")
-	)
-	(wire
-		(pts
-			(xy 114.3 102.87) (xy 114.3 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1add3e8-39c5-4618-b451-5be5ec625a95")
-	)
-	(wire
-		(pts
-			(xy 193.04 88.9) (xy 193.04 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b308910b-6a47-4516-9503-85b652eec954")
-	)
-	(wire
-		(pts
-			(xy 83.82 109.22) (xy 83.82 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b34ef32e-0393-40ce-8ab9-4aaff6bcb0df")
-	)
-	(wire
-		(pts
-			(xy 203.2 123.19) (xy 203.2 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8609842-9c51-43a0-bec8-21ee1800ad6d")
-	)
-	(wire
-		(pts
-			(xy 203.2 106.68) (xy 213.36 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc1b101b-0b53-4f16-aef0-31abfcf31b58")
-	)
-	(wire
-		(pts
-			(xy 182.88 142.24) (xy 193.04 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc58e73f-b92f-4906-8d03-b67947a5969c")
-	)
-	(wire
-		(pts
-			(xy 114.3 91.44) (xy 125.73 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcbf9b94-5951-46dd-96af-b18d0f97d657")
-	)
-	(wire
-		(pts
-			(xy 213.36 100.33) (xy 213.36 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be2d0ed7-2805-42d6-9a95-bae64451bb55")
-	)
-	(wire
-		(pts
-			(xy 68.58 109.22) (xy 73.66 109.22)
+			(xy 68.58 109.22) (xy 74.93 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "be47f555-aa89-4437-9573-f748b07fed0f")
-	)
-	(wire
-		(pts
-			(xy 193.04 123.19) (xy 193.04 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c12e37e0-478f-461c-98fc-65e4cb5ac34f")
 	)
 	(wire
 		(pts
@@ -2103,13 +2090,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 144.78) (xy 66.04 144.78)
+			(xy 246.38 123.19) (xy 246.38 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c48729d2-7e5f-4e34-9407-f97627b771e7")
+		(uuid "c425939d-3b4b-40a1-8f0b-8b807e60f687")
 	)
 	(wire
 		(pts
@@ -2123,17 +2110,27 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 91.44) (xy 83.82 95.25)
+			(xy 31.75 144.78) (xy 43.18 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c84ea039-90c9-4ee1-b187-da98442c5a41")
+		(uuid "c4be96c4-2bb7-4399-9e44-3851b70ec543")
 	)
 	(wire
 		(pts
-			(xy 171.45 106.68) (xy 182.88 106.68)
+			(xy 234.95 101.6) (xy 234.95 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a8f610-c781-4446-9304-3c5df7a9e344")
+	)
+	(wire
+		(pts
+			(xy 162.56 106.68) (xy 172.72 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2143,37 +2140,47 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 95.25) (xy 114.3 91.44)
+			(xy 204.47 137.16) (xy 204.47 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0c0c5d2-a241-4bb3-aef0-c66d242964df")
+		(uuid "c9f3356d-53d4-4f5a-8a53-a2376d57db56")
 	)
 	(wire
 		(pts
-			(xy 83.82 125.73) (xy 93.98 125.73)
+			(xy 95.25 139.7) (xy 95.25 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1e18b31-05f7-461e-8f79-461a0eac921d")
+		(uuid "cae248a3-f38b-49b6-b2a5-5c96bf223084")
 	)
 	(wire
 		(pts
-			(xy 41.91 138.43) (xy 41.91 144.78)
+			(xy 214.63 106.68) (xy 224.79 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3788d68-f925-4293-9db7-87d0a3439f95")
+		(uuid "d1ed9462-9ba0-4d6f-bfb1-6f720605f40e")
 	)
 	(wire
 		(pts
-			(xy 104.14 109.22) (xy 93.98 109.22)
+			(xy 226.06 137.16) (xy 226.06 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d30bf42c-fa6d-4baa-ab3e-30d6b53e6997")
+	)
+	(wire
+		(pts
+			(xy 95.25 109.22) (xy 105.41 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2183,17 +2190,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 88.9) (xy 203.2 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5cd5a2e-5172-4794-ad72-d987b48607e8")
-	)
-	(wire
-		(pts
-			(xy 31.75 91.44) (xy 21.59 91.44)
+			(xy 22.86 91.44) (xy 33.02 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2203,17 +2200,47 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 102.87) (xy 73.66 109.22)
+			(xy 64.77 104.14) (xy 64.77 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7ba2e6e-2ed0-4534-ada4-2bdc1e6f90ca")
+		(uuid "d7516a0c-5103-4540-90dd-d3743f50dbb1")
 	)
 	(wire
 		(pts
-			(xy 30.48 125.73) (xy 41.91 125.73)
+			(xy 85.09 125.73) (xy 85.09 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88a4f81-7024-4ac7-b975-cbf3dd735c06")
+	)
+	(wire
+		(pts
+			(xy 214.63 88.9) (xy 224.79 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d92fca70-3593-42af-866f-f23f44784d57")
+	)
+	(wire
+		(pts
+			(xy 194.31 137.16) (xy 194.31 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deda200f-0815-46f1-a7a1-aaaed577b01b")
+	)
+	(wire
+		(pts
+			(xy 21.59 125.73) (xy 31.75 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2223,83 +2250,53 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 91.44) (xy 21.59 95.25)
+			(xy 22.86 91.44) (xy 22.86 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df90206d-2652-4166-845a-bfa5378a060f")
+		(uuid "e3c776d5-94ab-4079-83dd-98de9803a852")
 	)
 	(wire
 		(pts
-			(xy 21.59 109.22) (xy 31.75 109.22)
+			(xy 172.72 106.68) (xy 184.15 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0364b5f-dd46-42ca-bf31-a2c8b66d2ba7")
+		(uuid "e412c5b5-07c7-4fcc-a3be-380c5325aeca")
 	)
 	(wire
 		(pts
-			(xy 20.32 130.81) (xy 20.32 125.73)
+			(xy 255.27 101.6) (xy 255.27 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e13c5d2e-2e0f-4018-bde7-52733cbf5655")
+		(uuid "e55b2706-02d1-4037-a9d2-3fb61d7247f3")
 	)
 	(wire
 		(pts
-			(xy 223.52 88.9) (xy 223.52 92.71)
+			(xy 115.57 91.44) (xy 115.57 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e27cc59f-9cc4-44e7-a932-3364cbaafda7")
+		(uuid "e7a0ee77-db27-4ab3-b691-ed69a4dc1057")
 	)
 	(wire
 		(pts
-			(xy 93.98 138.43) (xy 93.98 144.78)
+			(xy 74.93 91.44) (xy 74.93 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3f143f0-e893-4564-9a3f-8a626dbfd5e2")
-	)
-	(wire
-		(pts
-			(xy 182.88 106.68) (xy 193.04 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e50e8cd2-ef60-4540-9638-9204fbfb6e99")
-	)
-	(wire
-		(pts
-			(xy 171.45 123.19) (xy 171.45 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e78d5224-7e2f-4479-b5f8-28e9b8d46dd7")
-	)
-	(wire
-		(pts
-			(xy 223.52 106.68) (xy 223.52 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9b8dd3a-08f5-4eab-babb-0768aa9170b0")
+		(uuid "e95acb08-1283-4fd7-b760-a05dbe145c7b")
 	)
 	(wire
 		(pts
@@ -2313,27 +2310,77 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 88.9) (xy 182.88 88.9)
+			(xy 214.63 88.9) (xy 214.63 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb4c4e61-f603-413c-b12b-3c2966597ef1")
+		(uuid "ea437f76-28e4-4a1d-8350-59cb2908d9dd")
 	)
 	(wire
 		(pts
-			(xy 243.84 100.33) (xy 243.84 106.68)
+			(xy 64.77 91.44) (xy 64.77 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3eb6812-bd8d-4261-a77a-ce8f4fd283c2")
+		(uuid "eacf8c3d-aa67-4231-9be4-9656f33f5bf1")
 	)
 	(wire
 		(pts
-			(xy 93.98 125.73) (xy 104.14 125.73)
+			(xy 31.75 125.73) (xy 31.75 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf6762c-3623-4ecd-a0e9-381331c8fdf3")
+	)
+	(wire
+		(pts
+			(xy 224.79 88.9) (xy 224.79 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb9f72c2-0a72-42f5-b639-5aa9f397c345")
+	)
+	(wire
+		(pts
+			(xy 33.02 104.14) (xy 33.02 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c1dbde-0988-40cf-9682-9e83e0ddb3ef")
+	)
+	(wire
+		(pts
+			(xy 184.15 88.9) (xy 194.31 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c474ef-f46c-46c2-97cb-0f75f7849c6d")
+	)
+	(wire
+		(pts
+			(xy 63.5 144.78) (xy 66.04 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a5c328-ebd2-42c3-8d39-8206944bc0be")
+	)
+	(wire
+		(pts
+			(xy 85.09 125.73) (xy 95.25 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2343,33 +2390,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 88.9) (xy 213.36 88.9)
+			(xy 194.31 88.9) (xy 204.47 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f504e4a7-aac2-489e-a8f8-b91ed73785a4")
-	)
-	(wire
-		(pts
-			(xy 224.79 135.89) (xy 224.79 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f634c33d-3c5d-4afc-a434-ade0840df9af")
-	)
-	(wire
-		(pts
-			(xy 203.2 142.24) (xy 207.01 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6bb0f98-9f58-4405-ae89-7c788f7e7a57")
 	)
 	(wire
 		(pts
@@ -2383,53 +2410,43 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 144.78) (xy 52.07 144.78)
+			(xy 184.15 101.6) (xy 184.15 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd94c033-0998-451c-814e-ce42f6e8cc6a")
+		(uuid "faf48aa8-f0d3-4039-a535-e4110104ca13")
 	)
 	(wire
 		(pts
-			(xy 213.36 142.24) (xy 224.79 142.24)
+			(xy 44.45 104.14) (xy 44.45 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff25d013-7e4c-4139-82e0-cea70633a44c")
+		(uuid "fbaff85e-93c8-41a8-876d-d2571f1750e9")
 	)
 	(wire
 		(pts
-			(xy 41.91 125.73) (xy 52.07 125.73)
+			(xy 172.72 137.16) (xy 172.72 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fceaacc8-0bc0-4814-827a-631db49a8a3e")
+	)
+	(wire
+		(pts
+			(xy 31.75 125.73) (xy 43.18 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ff819dc5-80fb-49b6-b401-2a817adddf56")
-	)
-	(wire
-		(pts
-			(xy 31.75 91.44) (xy 43.18 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffcc1357-7fdb-4d7a-be0c-268a684f4564")
-	)
-	(wire
-		(pts
-			(xy 171.45 100.33) (xy 171.45 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffd48778-05fd-480b-8eb5-9059ab39b907")
 	)
 	(global_label "GND_R"
 		(shape input)
@@ -2608,7 +2625,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 31.75 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2618,7 +2635,7 @@
 		(fields_autoplaced yes)
 		(uuid "012c8abc-a571-4e69-b378-35d2378b3a77")
 		(property "Reference" "LEDL2"
-			(at 35.56 99.3774 90)
+			(at 36.83 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2627,7 +2644,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 35.56 101.9174 90)
+			(at 36.83 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2636,7 +2653,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 31.75 99.06 0)
+			(at 40.64 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,8 +2661,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 31.75 99.06 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 43.18 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2664,6 +2681,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 31.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 45.72 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +2786,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 161.29 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2787,7 +2813,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 161.29 132.08 0)
+			(at 170.18 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,8 +2821,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 161.29 132.08 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 172.72 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,6 +2841,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 161.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 175.26 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2838,7 +2873,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 193.04 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2848,7 +2883,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c9f1f55-7b80-4334-8cb8-1b4da7b1e66f")
 		(property "Reference" "LEDR14"
-			(at 196.85 132.3974 90)
+			(at 198.12 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,7 +2892,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 196.85 134.9374 90)
+			(at 198.12 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,7 +2901,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 193.04 132.08 0)
+			(at 201.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,8 +2909,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 193.04 132.08 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 204.47 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,6 +2936,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2290"
+			(at 207.01 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0fdf3b2c-0a41-4d71-a8ef-342e68dd70e3")
 		)
@@ -2917,7 +2961,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 224.79 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2944,7 +2988,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 224.79 132.08 0)
+			(at 233.68 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2952,8 +2996,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 224.79 132.08 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 236.22 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,6 +3016,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 224.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 238.76 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2995,7 +3048,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 243.84 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3005,7 +3058,7 @@
 		(fields_autoplaced yes)
 		(uuid "20240145-90a7-457b-b63c-e51000996bc3")
 		(property "Reference" "LEDR9"
-			(at 247.65 96.8374 90)
+			(at 248.92 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,7 +3067,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 247.65 99.3774 90)
+			(at 248.92 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,7 +3076,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 243.84 96.52 0)
+			(at 252.73 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,8 +3084,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 243.84 96.52 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 255.27 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,6 +3104,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 243.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 257.81 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,7 +3136,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 245.11 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3084,7 +3146,7 @@
 		(fields_autoplaced yes)
 		(uuid "21c93fff-ad52-422e-b63f-94cc4d92acd5")
 		(property "Reference" "LEDR19"
-			(at 248.92 132.3974 90)
+			(at 250.19 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,7 +3155,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 248.92 134.9374 90)
+			(at 250.19 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,7 +3164,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 245.11 132.08 0)
+			(at 254 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,8 +3172,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 245.11 132.08 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 256.54 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,6 +3192,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 245.11 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 259.08 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,7 +3224,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 254 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3163,7 +3234,7 @@
 		(fields_autoplaced yes)
 		(uuid "26ccf9dd-a41e-47c8-9ac8-333ad24ce678")
 		(property "Reference" "LEDR10"
-			(at 257.81 96.8374 90)
+			(at 259.08 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,7 +3243,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 257.81 99.3774 90)
+			(at 259.08 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3181,7 +3252,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 254 96.52 0)
+			(at 262.89 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,8 +3260,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 254 96.52 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 265.43 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,6 +3280,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 254 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 267.97 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,7 +3312,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 83.82 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3242,7 +3322,7 @@
 		(fields_autoplaced yes)
 		(uuid "2737f282-bbaf-4206-952d-03a6d6b7a08d")
 		(property "Reference" "LEDL7"
-			(at 87.63 99.3774 90)
+			(at 88.9 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,7 +3331,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 87.63 101.9174 90)
+			(at 88.9 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3260,7 +3340,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 83.82 99.06 0)
+			(at 92.71 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,8 +3348,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 83.82 99.06 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 95.25 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3288,6 +3368,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 83.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 97.79 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3311,7 +3400,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 41.91 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3321,7 +3410,7 @@
 		(fields_autoplaced yes)
 		(uuid "334114eb-9d5d-4acc-9545-045ccda54619")
 		(property "Reference" "LEDL13"
-			(at 45.72 134.9374 90)
+			(at 46.99 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3330,7 +3419,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 45.72 137.4774 90)
+			(at 46.99 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3339,7 +3428,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 41.91 134.62 0)
+			(at 50.8 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3347,8 +3436,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 41.91 134.62 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 53.34 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,6 +3456,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 41.91 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 55.88 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +3488,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 104.14 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3400,7 +3498,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f31a400-f60a-40bc-9ce7-cf0f8abd793f")
 		(property "Reference" "LEDL19"
-			(at 107.95 134.9374 90)
+			(at 109.22 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,7 +3507,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 107.95 137.4774 90)
+			(at 109.22 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3418,7 +3516,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 104.14 134.62 0)
+			(at 113.03 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,8 +3524,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 104.14 134.62 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 115.57 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3446,6 +3544,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 118.11 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,7 +3576,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 203.2 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3479,7 +3586,7 @@
 		(fields_autoplaced yes)
 		(uuid "43d5466f-ad87-410f-a0c5-2e012a27dcad")
 		(property "Reference" "LEDR5"
-			(at 207.01 96.8374 90)
+			(at 208.28 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3488,7 +3595,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 207.01 99.3774 90)
+			(at 208.28 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3497,7 +3604,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 203.2 96.52 0)
+			(at 212.09 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,8 +3612,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 203.2 96.52 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 214.63 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,6 +3632,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 217.17 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3548,7 +3664,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 63.5 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3558,7 +3674,7 @@
 		(fields_autoplaced yes)
 		(uuid "4eb76f46-a3c7-4df4-846d-35cc8a9caaa1")
 		(property "Reference" "LEDL5"
-			(at 67.31 99.3774 90)
+			(at 68.58 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3567,7 +3683,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 67.31 101.9174 90)
+			(at 68.58 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3576,7 +3692,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 63.5 99.06 0)
+			(at 72.39 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,8 +3700,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 63.5 99.06 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 74.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3604,6 +3720,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 63.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 77.47 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3627,7 +3752,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 20.32 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3637,7 +3762,7 @@
 		(fields_autoplaced yes)
 		(uuid "55ffeeaf-041d-4b9b-94b9-3b554146fc48")
 		(property "Reference" "LEDL11"
-			(at 24.13 134.9374 90)
+			(at 25.4 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3646,7 +3771,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 24.13 137.4774 90)
+			(at 25.4 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,7 +3780,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 20.32 134.62 0)
+			(at 29.21 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3663,8 +3788,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 20.32 134.62 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 31.75 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,6 +3808,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 20.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 34.29 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +3840,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 104.14 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3716,7 +3850,7 @@
 		(fields_autoplaced yes)
 		(uuid "59d80a83-d1e1-4697-acf8-6f8d5b4a324d")
 		(property "Reference" "LEDL9"
-			(at 107.95 99.3774 90)
+			(at 109.22 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3725,7 +3859,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 107.95 101.9174 90)
+			(at 109.22 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3734,7 +3868,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 104.14 99.06 0)
+			(at 113.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,8 +3876,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 104.14 99.06 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 115.57 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3762,6 +3896,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 104.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3785,7 +3928,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 52.07 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3795,7 +3938,7 @@
 		(fields_autoplaced yes)
 		(uuid "5cb4f883-0c8a-4b7b-9640-98a9dcf2205d")
 		(property "Reference" "LEDL14"
-			(at 55.88 134.9374 90)
+			(at 57.15 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,7 +3947,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 55.88 137.4774 90)
+			(at 57.15 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,7 +3956,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 52.07 134.62 0)
+			(at 60.96 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3821,8 +3964,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 52.07 134.62 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 63.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3841,6 +3984,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 52.07 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 66.04 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3864,7 +4016,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 182.88 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3874,7 +4026,7 @@
 		(fields_autoplaced yes)
 		(uuid "66f178b5-168a-4f50-b178-9e544847674e")
 		(property "Reference" "LEDR13"
-			(at 186.69 132.3974 90)
+			(at 187.96 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3883,7 +4035,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 186.69 134.9374 90)
+			(at 187.96 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +4044,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 182.88 132.08 0)
+			(at 191.77 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3900,8 +4052,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 182.88 132.08 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 194.31 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,6 +4072,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 182.88 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 196.85 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +4104,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 234.95 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3953,7 +4114,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ad44883-46e1-4be0-9bdc-74d2fb9b2507")
 		(property "Reference" "LEDR18"
-			(at 238.76 132.3974 90)
+			(at 240.03 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,7 +4123,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 238.76 134.9374 90)
+			(at 240.03 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +4132,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 234.95 132.08 0)
+			(at 243.84 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,8 +4140,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 234.95 132.08 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 246.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,6 +4160,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 234.95 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 248.92 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,7 +4192,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 73.66 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4032,7 +4202,7 @@
 		(fields_autoplaced yes)
 		(uuid "72fbdc09-82fe-4550-89e4-1a0867ca1b96")
 		(property "Reference" "LEDL6"
-			(at 77.47 99.3774 90)
+			(at 78.74 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4041,7 +4211,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 77.47 101.9174 90)
+			(at 78.74 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4050,7 +4220,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 73.66 99.06 0)
+			(at 82.55 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,8 +4228,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 73.66 99.06 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 85.09 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,6 +4248,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 73.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 87.63 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4101,7 +4280,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 72.39 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4111,7 +4290,7 @@
 		(fields_autoplaced yes)
 		(uuid "74ee5eaf-e99e-4374-8364-d80132c63c22")
 		(property "Reference" "LEDL16"
-			(at 76.2 134.9374 90)
+			(at 77.47 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4120,7 +4299,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 76.2 137.4774 90)
+			(at 77.47 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4129,7 +4308,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 72.39 134.62 0)
+			(at 81.28 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,8 +4316,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 72.39 134.62 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 83.82 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,6 +4336,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 72.39 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 86.36 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4180,7 +4368,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 62.23 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4190,7 +4378,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c8cabd8-5d5d-4097-87f0-6b2e264a3e6e")
 		(property "Reference" "LEDL15"
-			(at 66.04 134.9374 90)
+			(at 67.31 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,7 +4387,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 66.04 137.4774 90)
+			(at 67.31 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,7 +4396,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 62.23 134.62 0)
+			(at 71.12 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4216,8 +4404,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 62.23 134.62 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 73.66 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,6 +4424,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 76.2 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4332,7 +4529,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 171.45 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4342,7 +4539,7 @@
 		(fields_autoplaced yes)
 		(uuid "82c10260-dad7-4759-8bdf-2f3bc633e8d0")
 		(property "Reference" "LEDR2"
-			(at 175.26 96.8374 90)
+			(at 176.53 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,7 +4548,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 175.26 99.3774 90)
+			(at 176.53 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,7 +4557,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 171.45 96.52 0)
+			(at 180.34 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,8 +4565,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 171.45 96.52 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 182.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4388,6 +4585,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 171.45 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 185.42 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4411,7 +4617,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 213.36 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4421,7 +4627,7 @@
 		(fields_autoplaced yes)
 		(uuid "8935fb2c-c62f-4bf7-85ef-f6d3a894ee76")
 		(property "Reference" "LEDR6"
-			(at 217.17 96.8374 90)
+			(at 218.44 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,7 +4636,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 217.17 99.3774 90)
+			(at 218.44 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,7 +4645,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 213.36 96.52 0)
+			(at 222.25 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4447,8 +4653,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 213.36 96.52 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 224.79 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4467,6 +4673,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 213.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 227.33 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,7 +4705,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 30.48 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4500,7 +4715,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f940e90-8d20-495e-bc9a-6ac7388cc7a3")
 		(property "Reference" "LEDL12"
-			(at 34.29 134.9374 90)
+			(at 35.56 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4509,7 +4724,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 34.29 137.4774 90)
+			(at 35.56 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,7 +4733,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 30.48 134.62 0)
+			(at 39.37 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4526,8 +4741,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 30.48 134.62 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 41.91 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4546,6 +4761,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 30.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 44.45 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4569,7 +4793,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 53.34 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4579,7 +4803,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e552bc2-98ce-48b6-baf4-881eab5a2797")
 		(property "Reference" "LEDL4"
-			(at 57.15 99.3774 90)
+			(at 58.42 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,7 +4812,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 57.15 101.9174 90)
+			(at 58.42 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,7 +4821,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 53.34 99.06 0)
+			(at 62.23 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,8 +4829,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 53.34 99.06 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 64.77 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,6 +4849,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 53.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 67.31 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +4881,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 93.98 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4658,7 +4891,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3e4cb82-3d4b-44be-a8b1-bc1f26dafc9f")
 		(property "Reference" "LEDL8"
-			(at 97.79 99.3774 90)
+			(at 99.06 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4667,7 +4900,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 97.79 101.9174 90)
+			(at 99.06 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4676,7 +4909,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 93.98 99.06 0)
+			(at 102.87 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,8 +4917,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 93.98 99.06 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 105.41 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4704,6 +4937,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 93.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 107.95 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,7 +4969,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 213.36 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4737,7 +4979,7 @@
 		(fields_autoplaced yes)
 		(uuid "a465ea13-6e4c-40fe-b9f0-17f47f8b4adc")
 		(property "Reference" "LEDR16"
-			(at 217.17 132.3974 90)
+			(at 218.44 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4746,7 +4988,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 217.17 134.9374 90)
+			(at 218.44 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4755,7 +4997,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 213.36 132.08 0)
+			(at 222.25 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4763,8 +5005,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 213.36 132.08 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 224.79 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4783,6 +5025,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 213.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 227.33 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4806,7 +5057,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 182.88 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4816,7 +5067,7 @@
 		(fields_autoplaced yes)
 		(uuid "a917a405-f96c-4574-9ac6-28c7a0a82da0")
 		(property "Reference" "LEDR3"
-			(at 186.69 96.8374 90)
+			(at 187.96 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,7 +5076,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 186.69 99.3774 90)
+			(at 187.96 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4834,7 +5085,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 182.88 96.52 0)
+			(at 191.77 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,8 +5093,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 182.88 96.52 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 194.31 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4862,6 +5113,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 196.85 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4885,7 +5145,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 171.45 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4895,7 +5155,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9e9fb37-3550-46cc-9ca8-f76377962915")
 		(property "Reference" "LEDR12"
-			(at 175.26 132.3974 90)
+			(at 176.53 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,7 +5164,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 175.26 134.9374 90)
+			(at 176.53 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,7 +5173,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 171.45 132.08 0)
+			(at 180.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4921,8 +5181,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 171.45 132.08 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 182.88 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4948,6 +5208,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2290"
+			(at 185.42 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "05b4ba1c-3a48-49c4-8154-11e3cae9413c")
 		)
@@ -4964,7 +5233,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 161.29 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4991,7 +5260,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 161.29 96.52 0)
+			(at 170.18 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4999,8 +5268,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 161.29 96.52 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5019,6 +5288,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 175.26 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5042,7 +5320,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 233.68 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5052,7 +5330,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6fb1ddd-8a1a-4424-b9f4-a24a844bf2a0")
 		(property "Reference" "LEDR8"
-			(at 237.49 96.8374 90)
+			(at 238.76 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5061,7 +5339,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 237.49 99.3774 90)
+			(at 238.76 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5070,7 +5348,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 233.68 96.52 0)
+			(at 242.57 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5078,8 +5356,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 233.68 96.52 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 245.11 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5098,6 +5376,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 233.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 247.65 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5121,7 +5408,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 193.04 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5131,7 +5418,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9448004-9832-4f69-b8d4-c863f2952c5c")
 		(property "Reference" "LEDR4"
-			(at 196.85 96.8374 90)
+			(at 198.12 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,7 +5427,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 196.85 99.3774 90)
+			(at 198.12 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,7 +5436,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 193.04 96.52 0)
+			(at 201.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5157,8 +5444,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 193.04 96.52 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 204.47 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5177,6 +5464,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 193.04 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 207.01 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5200,7 +5496,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 223.52 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5210,7 +5506,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5567ba0-8b22-4faf-9af0-019c724c4836")
 		(property "Reference" "LEDR7"
-			(at 227.33 96.8374 90)
+			(at 228.6 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,7 +5515,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 227.33 99.3774 90)
+			(at 228.6 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5228,7 +5524,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 223.52 96.52 0)
+			(at 232.41 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5236,8 +5532,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 223.52 96.52 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 234.95 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5256,6 +5552,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 237.49 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5279,7 +5584,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 43.18 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5289,7 +5594,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6e12b96-d186-4e66-b419-3b62bd9f363f")
 		(property "Reference" "LEDL3"
-			(at 46.99 99.3774 90)
+			(at 48.26 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5298,7 +5603,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 46.99 101.9174 90)
+			(at 48.26 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5307,7 +5612,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 43.18 99.06 0)
+			(at 52.07 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5315,8 +5620,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 43.18 99.06 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 54.61 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5342,6 +5647,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2290"
+			(at 57.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d3f609f9-8bae-436f-b01d-48d7b00cfdfe")
 		)
@@ -5358,7 +5672,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 83.82 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5385,7 +5699,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 83.82 134.62 0)
+			(at 92.71 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,8 +5707,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 83.82 134.62 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 95.25 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5413,6 +5727,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 83.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 97.79 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5436,7 +5759,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 114.3 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5446,7 +5769,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5c14b4a-d3b3-4c1c-9275-aba4994797a7")
 		(property "Reference" "LEDL10"
-			(at 118.11 99.3774 90)
+			(at 119.38 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5455,7 +5778,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 118.11 101.9174 90)
+			(at 119.38 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5464,7 +5787,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 114.3 99.06 0)
+			(at 123.19 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5472,8 +5795,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 114.3 99.06 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 125.73 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,6 +5815,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 114.3 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 128.27 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5515,7 +5847,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 21.59 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5525,7 +5857,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7b5ba83-7f66-4e84-aef4-c9d52fdf0bb8")
 		(property "Reference" "LEDL1"
-			(at 25.4 99.3774 90)
+			(at 26.67 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,7 +5866,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 25.4 101.9174 90)
+			(at 26.67 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5543,7 +5875,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 21.59 99.06 0)
+			(at 30.48 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,8 +5883,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 21.59 99.06 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 33.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5571,6 +5903,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 21.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 35.56 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +5935,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 93.98 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5604,7 +5945,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee173e1b-1e32-456f-963f-76e2b4b0aed3")
 		(property "Reference" "LEDL18"
-			(at 97.79 134.9374 90)
+			(at 99.06 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5613,7 +5954,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 97.79 137.4774 90)
+			(at 99.06 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,7 +5963,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 93.98 134.62 0)
+			(at 102.87 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5630,8 +5971,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 93.98 134.62 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 105.41 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,6 +5998,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2290"
+			(at 107.95 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "43f4eed6-d66b-4576-bada-9900c69ff83f")
 		)
@@ -5673,7 +6023,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Totem_lib:0603Whitelight_C2290")
 		(at 203.2 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5700,7 +6050,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:LED0603-R-RD_WHITE"
-			(at 203.2 132.08 0)
+			(at 212.09 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5708,8 +6058,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 203.2 132.08 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 214.63 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5728,6 +6078,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 203.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 217.17 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
