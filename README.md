@@ -38,7 +38,8 @@ if you wish to re-use this design, you should **not** blindly switch the led's o
 
 ### Front face 
 
-I like sodering 0603 led's as much as the next guys. 
+I like sodering 0603 led's as much as the next guys.
+ 
 In other words: I rather do something else with my very limited time on earth, and my rumba is getting indigestion from all of the suckers that have vanished into the dust. 
 
 Luckily, I can outsource the assembly of these components to wonderful pink and place machines, which on top of 
@@ -52,13 +53,19 @@ In order to outsource this work you will need to provide the BOM ( bill of mater
 Both files are human readable tables, the bill of materials file contains references to components in the JCBPCB component vendor database
 as we will be purchasing the components as part of the assembly process. 
 
-| Comment                  | Designator                                                                                                                                                                                                                                                                                                                                                                                                             | Footprint  | JLCPCB Part #（optional） |
-|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|---------------------------|
-| Diodes 1N4148W           | DL1,DL2,DL3,DL4,DL5,DL6,DL7,DL8,DL9,DL10,DL11,DL12,DL13,DL14,DL15,DL16,DL17,DL18,DL19,DR1,DR2,DR3,DR4,DR5,DR6,DR7,DR8,DR9,DR10,DR11,DR12,DR13,DR14,DR15,DR16,DR17,DR18,DR19                                                                                                                                                                                                       | SOD-123    | C2099                     |
-| Reset Button, SKHLLCA010 | RSW1,RSW2                                                                                                                                                                                                                                                                                                                                                                                                               | SKHLLCA010 | C139766                   |
-| TRRS jack, PJ-320A       | J1,J2                                                                                                                                                                                                                                                                                                                                                                                                                   | PJ-320A    | C2884926                  |
-| LED                      | LEDL1,LEDL2,LEDL3,LEDL4,LEDL5,LEDL6,LEDL7,LEDL8,LEDL9,LEDL10,LEDL11,LEDL12,LEDL13,LEDL14,LEDL15,LEDL16,LEDL17,LEDL18,LEDL19,LEDR1,LEDR2,LEDR3,LEDR4,LEDR5,LEDR6,LEDR7,LEDR8,LEDR9,LEDR10,LEDR11,LEDR12,LEDR13,LEDR14,LEDR15,LEDR16,LEDR17,LEDR18,LEDR19                                                                                                                                | KT-0603W   | C2290                     |
-| Potenciometer            | RV1,RV2                                                                                                                                                                                                                                                                                                                                                                                                                 | GF063P1-B201 | C128076                   |
+| Comment                  | Designator                                                                 | Footprint    | JLCPCB Part #（optional） |
+|---------------------------|----------------------------------------------------------------------------|--------------|---------------------------|
+| Diodes 1N4148W           | DL1,DL2,DL3,DL4,DL5,DL6,DL7,DL8,DL9,DL10,DL11,DL12,DL13,DL14,DL15,DL16,   | SOD-123      | C2099                     |
+|                           | DL17,DL18,DL19,DR1,DR2,DR3,DR4,DR5,DR6,DR7,DR8,DR9,DR10,DR11,DR12,DR13,   |              |                           |
+|                           | DR14,DR15,DR16,DR17,DR18,DR19                                             |              |                           |
+| Reset Button, SKHLLCA010 | RSW1,RSW2                                                                  | SKHLLCA010   | C139766                   |
+| TRRS jack, PJ-320A       | J1,J2                                                                     | PJ-320A      | C2884926                  |
+| LED                      | LEDL1,LEDL2,LEDL3,LEDL4,LEDL5,LEDL6,LEDL7,LEDL8,LEDL9,LEDL10,LEDL11,      | KT-0603W     | C2290                     |
+|                           | LEDL12,LEDL13,LEDL14,LEDL15,LEDL16,LEDL17,LEDL18,LEDL19,LEDR1,LEDR2,      |              |                           |
+|                           | LEDR3,LEDR4,LEDR5,LEDR6,LEDR7,LEDR8,LEDR9,LEDR10,LEDR11,LEDR12,LEDR13,    |              |                           |
+|                           | LEDR14,LEDR15,LEDR16,LEDR17,LEDR18,LEDR19                                 |              |                           |
+| Potenciometer            | RV1,RV2                                                                   | GF063P1-B201 | C128076                   |
+
 
 #### Positional 
 
