@@ -121,10 +121,10 @@ Thus, given the complexity difference I will only be outsourcing assembly of the
 ## Paths for improvement
 
 - Switch out the developement board in favor of having more accessible pins : 
-    - re-use my known to be good stm32 circuit -> removes the need to solder on the dev board + port QMK or ZMK to board \ 
-        downside : design will be harder to re-use for the mechanical keyboard community as flashing the firmware now requires a JTAG
-    - use another commonly used dev board as a controller \
-        downside : still requires to solder on the dev board 
+    - re-use my known to be good stm32 circuit -> removes the need to solder on the dev board + port QMK or ZMK to board 
+        - downside : design will be harder to re-use for the mechanical keyboard community as flashing the firmware now requires a JTAG
+    - use another commonly used dev board as a controller 
+        - downside : still requires to solder on the dev board 
 
 - Make backlight control be more easily accessible : 
     - rework case to have the potentiometer knob accessible on the side
