@@ -1,4 +1,19 @@
+==========================================================
+Modification Notice
+==========================================================
 Copyright (c) 2022 GEIST
+Copyright (c) 2025 Julia Desmazes
+
+This project is a modified version of the original work by
+GEIST (CERN-OHL-P v2, 2022).
+
+Modifications by Julia Desmazes, 23-29 Aug 2025:
+- Added backlight to keys
+- Reworked designs for manufacturability, outsourcing assembly
+
+==========================================================
+Full License Text: CERN-OHL-P v2
+==========================================================
 
 CERN Open Hardware Licence Version 2 - Permissive
 
