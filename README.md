@@ -28,6 +28,7 @@ The original TOTEM layout gave the flexibility of placing the switch in either o
 - pins up: connected to the switch shaft, allowing the switch to be swappable
 - pins down: switches soldered in place 
 
+![layout](/docs/images/layout.png)
 
 I have chosen the **pins up** layout that allows the switch to still be swappable at the cost of requiring the use of the switch shaft.
 
