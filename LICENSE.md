@@ -1,6 +1,7 @@
 # Modification Notice
 
 Copyright (c) 2022 GEIST
+
 Copyright (c) 2025 Julia Desmazes
 
 This project is a modified version of the original work by
