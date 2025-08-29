@@ -42,8 +42,10 @@ if you wish to re-use this design, you should **not** blindly switch the led's o
 ### Front face 
 
 I like soldering 0603 led's as much as the next guys.
+![0603](/docs/images/0603.png)
  
 In other words: I rather do something else with my very limited time on earth, and my rumba is getting indigestion from all of the suckers that have vanished into the dust. 
+
 
 Luckily, I can outsource the assembly of these components to wonderful pink and place machines, which on top of 
 being more patient than me are orders of magnitude more consistent and precise. Such assembly services are 
